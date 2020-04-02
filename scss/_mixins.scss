@@ -1,0 +1,8 @@
+@mixin bordure{
+	border-radius : 10px;
+	border : solid black;
+}
+
+@mixin bordureRad($bordureRadius){
+	border-radius : $bordureRadius;
+}

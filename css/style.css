@@ -1,0 +1,50 @@
+/* line 1, ../scss/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 15, ../scss/_reset.scss */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 21, ../scss/_reset.scss */
+input,
+select,
+textarea,
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: none;
+}
+
+/* line 31, ../scss/_reset.scss */
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/* line 38, ../scss/_reset.scss */
+p {
+  padding: 0;
+}
+
+/* line 5, ../scss/style.scss */
+body {
+  background-color: blue;
+}
