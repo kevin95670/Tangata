@@ -44,7 +44,90 @@ p {
   padding: 0;
 }
 
-/* line 5, ../scss/style.scss */
+/* line 1, ../scss/_header.scss */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 26px 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* line 10, ../scss/_header.scss */
+header img {
+  width: 135px;
+  height: auto;
+}
+
+/* line 1, ../scss/_footer.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* line 9, ../scss/style.scss */
 body {
-  background-color: blue;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 14, ../scss/style.scss */
+h1 {
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.25rem;
+}
+
+/* line 20, ../scss/style.scss */
+.btn-white {
+  color: #FFF;
+  border: 2px solid #FFF;
+  width: 250px;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* line 28, ../scss/style.scss */
+.btn-white:hover {
+  font-size: 1.1rem;
+  color: #FFF;
+  transition: font-size .5s;
+}
+
+/* Index page */
+/* line 39, ../scss/style.scss */
+#index h1 {
+  margin-bottom: 150px;
+  padding: 0 20px;
+  line-height: 24px;
+}
+/* line 45, ../scss/style.scss */
+#index .logo {
+  margin-bottom: 50px;
+  padding-top: 130px;
+  height: 75px;
+}
+/* line 51, ../scss/style.scss */
+#index main {
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+/* line 56, ../scss/style.scss */
+#index main .overlay {
+  content: "";
+  opacity: 0.7;
+  background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }

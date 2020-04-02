@@ -1,7 +1,68 @@
 @import '_reset.scss';
+@import '_fonts.scss';
+@import '_colors.scss';
 @import '_mixins.scss';
 @import '_functions.scss';
+@import '_header.scss';
+@import '_footer.scss';
 
 body{
-	background-color: blue;
+	height: 100vh;
+	font-family: $fontMain;
+}
+
+h1{
+	font-weight: bold;
+	color: $white;
+	font-size: 1.25rem;
+}
+
+.btn-white{
+	color: $white;
+	border: 2px solid $white;
+	width: 250px;
+	border-radius: 0;
+	font-size: 1rem;
+	font-weight: 500;
+
+	&:hover{
+		font-size: 1.1rem;
+		color: $white;
+		transition: font-size .5s;
+	}
+}
+
+/* Index page */
+
+#index{
+
+	h1{
+		margin-bottom: 150px;
+		padding: 0 20px;
+		line-height: 24px;
+	}
+
+	.logo{
+		margin-bottom: 50px;
+		padding-top: 130px;
+		height: 75px;
+	}
+
+	main{
+		text-align: center;
+		position: relative;
+		height: 100%;
+
+		& .overlay{
+			content: "";
+			opacity: 0.7;
+			background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: -1;
+		}
+	}
 }
