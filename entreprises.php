@@ -12,28 +12,41 @@
 					<h1>Les entreprises qui utilisent les services de Tangata Job</h1>
 				</div>
 			</div>
-			<div class="row description mb-5">
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<i class="fas fa-handshake blue-circle-border"></i>
-					<p>Votre marque employeur favorisé par l'inclusion</p>
+			<div class="row entreprises">
+				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
+					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<h2>BNP Paris Cardif</h2>
+					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
+					<a href="entreprise">Voir la fiche entreprise</a>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<i class="fas fa-handshake blue-circle-border"></i>
-					<p>Un réseau d'experts handicap pour booster votre attractivité</p>
+				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
+					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<h2>Danone</h2>
+					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
+					<a href="entreprise">Voir la fiche entreprise</a>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<i class="fas fa-handshake blue-circle-border"></i>
-					<p>Des profils qualifiés pour votre recrutement</p>
+				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
+					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<h2>Engie</h2>
+					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
+					<a href="entreprise">Voir la fiche entreprise</a>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<i class="fas fa-handshake blue-circle-border"></i>
-					<p>Des profils qualifiés pour votre recrutement</p>
+				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
+					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<h2>Arval - BNP Paris Group</h2>
+					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
+					<a href="entreprise">Voir la fiche entreprise</a>
 				</div>
 			</div>
-			<div class="row add-entreprise pb-5 py-5">
+			<div class="row add-entreprise mb-5 mx-3 py-3 px-3">
 				<div class="col-12 no-padding">
-					<h2 class="mb-5">Découvrez les entreprises Tangat'Addicts</h2>
-					<a href="entreprises" class="btn btns btn-blue">Voir les entreprises</a>
+					<a href="new-entreprise">
+						<div class="position-relative new-entreprise mb-3">
+							<div class="plus-icon py-4 px-3"><i class="fas fa-plus"></i></div>
+						</div>
+						<h2 class="mb-3">Votre entreprise</h2>
+						<p>Commencer la création de votre page entreprise.</p>
+					</a>
 				</div>
 			</div>
 		</div>

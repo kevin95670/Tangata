@@ -44,6 +44,11 @@ p {
   padding: 0;
 }
 
+/* line 2, ../scss/_forms.scss */
+form label {
+  font-size: 0.85rem;
+}
+
 /* line 1, ../scss/_header.scss */
 header {
   position: fixed;
@@ -84,18 +89,18 @@ footer a {
   font-size: 0.625rem;
 }
 
-/* line 10, ../scss/style.scss */
+/* line 11, ../scss/style.scss */
 html {
   height: 100%;
 }
 
-/* line 14, ../scss/style.scss */
+/* line 15, ../scss/style.scss */
 body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 19, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 main {
   text-align: center;
   position: relative;
@@ -104,61 +109,73 @@ main {
   padding-bottom: 60px;
 }
 
-/* line 27, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 h1 {
   font-weight: bold;
   color: #FFF;
   font-size: 1.25rem;
 }
 
-/* line 33, ../scss/style.scss */
+/* line 34, ../scss/style.scss */
 h2 {
   font-size: 1.125rem;
   font-weight: bold;
 }
 
-/* line 38, ../scss/style.scss */
+/* line 39, ../scss/style.scss */
 .blue-circle-border {
   border: 2px solid #037CC2;
   border-radius: 100px;
-  padding: 10px 8px;
+  padding: 10px;
 }
 
-/* line 44, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
+.required {
+  color: #FF0000;
+}
+
+/* line 49, ../scss/style.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 48, ../scss/style.scss */
+/* line 53, ../scss/style.scss */
 .btns {
   width: 250px;
   border-radius: 0;
   font-size: 1rem;
   font-weight: 500;
 }
-/* line 54, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .btns:hover {
   font-size: 1.1rem;
   transition: font-size .5s;
 }
 
-/* line 60, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .btn-blue {
   color: #037CC2;
   border: 2px solid #037CC2;
 }
-/* line 64, ../scss/style.scss */
+/* line 69, ../scss/style.scss */
 .btn-blue:hover {
   color: #037CC2;
 }
 
-/* line 69, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
+.btn-fill-blue {
+  color: #FFF;
+  border: 2px solid #037CC2;
+  background: #037CC2;
+}
+
+/* line 80, ../scss/style.scss */
 .btn-white {
   color: #FFF;
   border: 2px solid #FFF;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .overlay {
   content: "";
   top: 0;
@@ -170,75 +187,139 @@ h2 {
 }
 
 /* Index page */
-/* line 92, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 #index h1 {
   margin-bottom: 150px;
   padding: 0 20px;
 }
-/* line 97, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 #index .logo {
   margin-bottom: 50px;
   padding-top: 130px;
   height: 75px;
 }
-/* line 105, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 #index main .overlay {
   opacity: 0.7;
   background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
 }
 
 /* Tangata */
-/* line 116, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 #tangata h1 {
   color: #4c4c4c;
   margin: 0 14px;
 }
-/* line 120, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 #tangata .overlay {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.89) 56.46%, #FFFFFF 100%);
 }
-/* line 124, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 #tangata .background-image {
   padding-top: 110px;
 }
-/* line 130, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 #tangata .description i {
   color: #037CC2;
 }
-/* line 134, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 #tangata .description p {
   margin: 7px 40px 21px;
 }
-/* line 138, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 #tangata .tangata-help {
   padding: 50px 14px;
   background: url("../images/logo.png") no-repeat right bottom;
 }
-/* line 141, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 #tangata .tangata-help .overlay {
   background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
 }
-/* line 145, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 #tangata .tangata-help h2 {
   color: #FFF;
 }
-/* line 150, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 #tangata .see-entreprises {
   color: #4c4c4c;
   background-color: #EEEEEE;
 }
 
 /* Entreprises */
-/* line 159, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 #entreprises h1 {
   color: #4c4c4c;
   margin: 0 14px;
 }
-/* line 164, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 #entreprises .overlay {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.89) 56.46%, #FFFFFF 100%);
 }
-/* line 168, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 #entreprises .background-image {
   padding-top: 110px;
+}
+/* line 185, ../scss/style.scss */
+#entreprises .entreprises h2 {
+  color: #4c4c4c;
+}
+/* line 189, ../scss/style.scss */
+#entreprises .entreprises .entreprise {
+  padding: 0 30px;
+}
+/* line 193, ../scss/style.scss */
+#entreprises .entreprises p {
+  color: #4c4c4c;
+  font-size: 0.813rem;
+}
+/* line 198, ../scss/style.scss */
+#entreprises .entreprises a {
+  color: #4c4c4c;
+  font-size: 0.813rem;
+  font-style: italic;
+  text-decoration: underline;
+}
+/* line 206, ../scss/style.scss */
+#entreprises .add-entreprise {
+  border: 1px dashed #979797;
+}
+/* line 209, ../scss/style.scss */
+#entreprises .add-entreprise h2 {
+  color: #4c4c4c;
+}
+/* line 213, ../scss/style.scss */
+#entreprises .add-entreprise p {
+  color: #4c4c4c;
+}
+/* line 217, ../scss/style.scss */
+#entreprises .add-entreprise .new-entreprise {
+  background-color: #F1F1F1;
+}
+/* line 220, ../scss/style.scss */
+#entreprises .add-entreprise .new-entreprise .plus-icon {
+  color: #4c4c4c;
+  font-size: 5.25rem;
+  opacity: .7;
+}
+
+/* Contact */
+/* line 232, ../scss/style.scss */
+#contact .overlay {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.89) 56.46%, #FFFFFF 100%);
+}
+/* line 236, ../scss/style.scss */
+#contact .background-image {
+  padding-top: 110px;
+}
+/* line 241, ../scss/style.scss */
+#contact h1 {
+  color: #4c4c4c;
+}
+/* line 246, ../scss/style.scss */
+#contact .contact i {
+  color: #037CC2;
+}
+/* line 250, ../scss/style.scss */
+#contact .contact p {
+  color: #4c4c4c;
 }

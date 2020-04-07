@@ -3,6 +3,7 @@
 @import '_colors.scss';
 @import '_mixins.scss';
 @import '_functions.scss';
+@import'_forms.scss';
 @import '_header.scss';
 @import '_footer.scss';
 
@@ -38,7 +39,11 @@ h2{
 .blue-circle-border{
 	border: 2px solid $colorBlue;
 	border-radius: 100px;
-	padding: 10px 8px;
+	padding: 10px;
+}
+
+.required{
+	color: $red;
 }
 
 .no-padding{
@@ -64,6 +69,12 @@ h2{
 	&:hover{
 		color: $colorBlue;
 	}
+}
+
+.btn-fill-blue{
+	color: $white;
+	border: 2px solid $colorBlue;
+	background: $colorBlue;
 }
 
 .btn-white{
@@ -168,5 +179,76 @@ h2{
 	& .background-image{
 		padding-top: 110px;
 		//background: url("../images/logo.png") no-repeat center center / cover;
+	}
+
+	.entreprises{
+		h2{
+			color: $colorTitle;
+		}
+
+		.entreprise{
+			padding: 0 30px;
+		}
+
+		p{
+			color: $colorTitle;
+			font-size: 0.813rem;
+		}
+
+		a{
+			color: $colorTitle;
+			font-size: 0.813rem;
+			font-style: italic;
+			text-decoration: underline;
+		}
+	}
+
+	.add-entreprise{
+		border: 1px dashed $colorDashedBorder;
+
+		h2{
+			color: $colorTitle;
+		}
+
+		p{
+			color: $colorTitle;
+		}
+
+		.new-entreprise{
+			background-color: $colorBGNewEntreprise;
+
+			& .plus-icon{
+				color: $colorTitle;
+				font-size: 5.25rem;
+				opacity: .7;
+			}
+		}
+	}
+}
+
+/* Contact */
+
+#contact{
+	& .overlay{
+		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.89) 56.46%, #FFFFFF 100%);
+	}
+
+	& .background-image{
+		padding-top: 110px;
+		//background: url("../images/logo.png") no-repeat center center / cover;
+	}
+
+	h1{
+		color: $colorTitle;
+	}
+
+	.contact{
+		i{
+			color: $colorBlue;
+		}
+
+		p{
+			color: $colorTitle;
+		}
 	}
 }
