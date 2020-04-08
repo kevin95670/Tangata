@@ -1,0 +1,104 @@
+/* Common styles */
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	font-family: $fontMain;
+}
+
+main{
+	text-align: center;
+	position: relative;
+	min-height: 100vh;
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+
+h1{
+	font-weight: bold;
+	color: $colorTitle;
+	font-size: 1.25rem;
+	margin: 0 14px;
+}
+
+h2{
+	font-size: 1.125rem;
+	font-weight: bold;
+	color: $colorTitle;
+}
+
+p{
+	color: $colorTitle;
+}
+
+i{
+	color: $colorBlue;
+}
+
+.blue-circle-border{
+	border: 2px solid $colorBlue;
+	border-radius: 100px;
+	padding: 10px;
+}
+
+.required{
+	color: $red;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.btns{
+	width: 250px;
+	border-radius: 0;
+	font-size: 1rem;
+	font-weight: 500;
+
+	&:hover{
+		font-size: 1.1rem;
+		transition: font-size .5s;
+	}
+}
+
+.btn-blue{
+	color: $colorBlue;
+	border: 2px solid $colorBlue;
+
+	&:hover{
+		color: $colorBlue;
+	}
+}
+
+.btn-fill-blue{
+	color: $white;
+	border: 2px solid $colorBlue;
+	background: $colorBlue;
+}
+
+.btn-white{
+	color: $white;
+	border: 2px solid $white;
+
+	&:hover{
+
+	}
+}
+
+.overlay{
+	content: "";
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.89) 56.46%, #FFFFFF 100%);
+}
+
+.background-image{
+	padding-top: 110px;
+}

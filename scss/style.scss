@@ -1,108 +1,20 @@
 @import '_reset.scss';
 @import '_fonts.scss';
 @import '_colors.scss';
-@import '_mixins.scss';
-@import '_functions.scss';
-@import'_forms.scss';
 @import '_header.scss';
 @import '_footer.scss';
+@import '_common.scss';
+@import '_forms.scss';
 
-
-html{
-	height: 100%;
-}
-
-body{
-	height: 100%;
-	font-family: $fontMain;
-}
-
-main{
-	text-align: center;
-	position: relative;
-	min-height: 100vh;
-	padding-top: 90px;
-	padding-bottom: 60px;
-}
-
-h1{
-	font-weight: bold;
-	color: $white;
-	font-size: 1.25rem;
-}
-
-h2{
-	font-size: 1.125rem;
-	font-weight: bold;
-}
-
-.blue-circle-border{
-	border: 2px solid $colorBlue;
-	border-radius: 100px;
-	padding: 10px;
-}
-
-.required{
-	color: $red;
-}
-
-.no-padding{
-	padding: 0;
-}
-
-.btns{
-	width: 250px;
-	border-radius: 0;
-	font-size: 1rem;
-	font-weight: 500;
-
-	&:hover{
-		font-size: 1.1rem;
-		transition: font-size .5s;
-	}
-}
-
-.btn-blue{
-	color: $colorBlue;
-	border: 2px solid $colorBlue;
-
-	&:hover{
-		color: $colorBlue;
-	}
-}
-
-.btn-fill-blue{
-	color: $white;
-	border: 2px solid $colorBlue;
-	background: $colorBlue;
-}
-
-.btn-white{
-	color: $white;
-	border: 2px solid $white;
-
-	&:hover{
-
-	}
-}
-
-.overlay{
-	content: "";
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;
-}
 
 /* Index page */
 
 #index{
 
 	h1{
+		color: $white;
 		margin-bottom: 150px;
-		padding: 0 20px;
+		padding: 0 5px;
 	}
 
 	.logo{
@@ -111,12 +23,9 @@ h2{
 		height: 75px;
 	}
 
-	main{
-
-		& .overlay{
-			opacity: 0.7;
-			background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
-		}
+	.overlay{
+		opacity: 0.7;
+		background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
 	}
 }
 
@@ -124,23 +33,11 @@ h2{
 
 #tangata{
 
-	h1{
-		color: $colorTitle;
-		margin: 0 14px;
-	}
-	& .overlay{
-		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.89) 56.46%, #FFFFFF 100%);
-	}
-
-	& .background-image{
-		padding-top: 110px;
+	.background-image{
 		//background: url("../images/logo.png") no-repeat center center / cover;
 	}
 
 	.description{
-		i{
-			color: $colorBlue;
-		}
 
 		p{
 			margin: 7px 40px 21px;
@@ -149,6 +46,7 @@ h2{
 	.tangata-help{
 		padding: 50px 14px;
 		background: url("../images/logo.png") no-repeat right bottom;
+
 		.overlay{
 			background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
 		}
@@ -159,7 +57,6 @@ h2{
 	}
 
 	.see-entreprises{
-		color: $colorTitle;
 		background-color: $colorBG;
 	}
 }
@@ -167,38 +64,24 @@ h2{
 /* Entreprises */
 
 #entreprises{
-	h1{
-		color: $colorTitle;
-		margin: 0 14px;
-	}
 
-	& .overlay{
-		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.89) 56.46%, #FFFFFF 100%);
-	}
-
-	& .background-image{
-		padding-top: 110px;
+	.background-image{
 		//background: url("../images/logo.png") no-repeat center center / cover;
 	}
 
 	.entreprises{
-		h2{
-			color: $colorTitle;
-		}
 
 		.entreprise{
 			padding: 0 30px;
 		}
 
 		p{
-			color: $colorTitle;
 			font-size: 0.813rem;
 		}
 
 		a{
 			color: $colorTitle;
 			font-size: 0.813rem;
-			font-style: italic;
 			text-decoration: underline;
 		}
 	}
@@ -206,21 +89,15 @@ h2{
 	.add-entreprise{
 		border: 1px dashed $colorDashedBorder;
 
-		h2{
-			color: $colorTitle;
-		}
-
-		p{
-			color: $colorTitle;
-		}
-
 		.new-entreprise{
 			background-color: $colorBGNewEntreprise;
 
 			& .plus-icon{
-				color: $colorTitle;
-				font-size: 5.25rem;
-				opacity: .7;
+				i{
+					color: $colorTitle;
+					font-size: 5.25rem;
+					opacity: .7;
+				}
 			}
 		}
 	}
@@ -229,26 +106,85 @@ h2{
 /* Contact */
 
 #contact{
-	& .overlay{
-		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.89) 56.46%, #FFFFFF 100%);
-	}
 
-	& .background-image{
-		padding-top: 110px;
+	.background-image{
 		//background: url("../images/logo.png") no-repeat center center / cover;
 	}
 
-	h1{
-		color: $colorTitle;
+}
+
+/* A propos */
+
+#about{
+
+	.background-image{
+		//background: url("../images/logo.png") no-repeat center center / cover;
 	}
 
-	.contact{
-		i{
-			color: $colorBlue;
+	.about{
+
+		h2{
+			font-size: 0.813rem;
 		}
 
 		p{
-			color: $colorTitle;
+			font-size: 0.813rem;
+		}
+	}
+}
+
+/* Tarifs */
+
+#tarifs{
+
+	.background-image{
+		//background: url("../images/logo.png") no-repeat center center / cover;
+	}
+
+	.tarifs{
+		box-shadow: 0 30px 30px -10px rgba(0,0,0,0.2);
+		background: $white;
+	}
+
+	.tarif-top{
+
+		p.first{
+			font-size: 1.563rem;
+		}
+
+		p.last{
+			font-size: 0.875rem;
+		}
+
+		h2{
+			color: $colorBlue;
+			font-size: 0.875rem;
+		}
+
+		.see-more{
+			width: 150px;
+		}
+	}
+
+	.tarif-bottom{
+		ul{
+			text-align: left;
+			list-style: none;
+			padding: 0;
+			
+			li::before {
+				content: "\2022"; 
+				color: $colorBlue;
+				display: inline-block; 
+				width: 15px;
+				font-size: 1.563rem;
+			}
+
+			li{
+				margin-bottom: 10px;
+				color: $colorTitle;
+				font-size: 0.813rem; 
+			}
 		}
 	}
 }
