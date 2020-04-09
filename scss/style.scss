@@ -103,6 +103,160 @@
 	}
 }
 
+/* Entreprise */
+
+#entreprise{
+
+	.background-image{
+		//background: url("../images/logo.png") no-repeat center center / cover;
+	}
+
+	.wrapper-logo{
+		background: $white;
+		left: 50%;
+		transform: translateX(-50%);
+		border-radius: 100px;
+		width: 110px;
+		height: 110px;
+		bottom: -50px;
+		box-shadow: 0 7px 10px 0 rgba(0,0,0,0.2);
+
+		.logo-entreprise{
+
+			width: 110px;
+			height: 110px;
+
+			img{
+				top:50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				max-width: 95px;
+				height: auto;
+			}
+		}
+	}
+
+	.lieu{
+		font-size: 0.875rem;
+	}
+
+	.entreprise-section{
+
+		p{
+			padding-bottom: 10px;
+			font-size: 0.875rem;
+			border-bottom: 1px solid $colorGrayLight;
+
+			&.active{
+				border-bottom: 2px solid $colorBlue;
+				font-weight: bold;
+			}
+
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
+
+	.numbers{
+
+		p{
+			color: $colorGreen;
+			margin-bottom: 0;
+			font-size: 1rem;
+
+			strong{
+				font-size: 1.5rem;
+			}
+		}
+
+		.overlay{
+			background: $colorGreen;
+			opacity: .1;
+		}
+	}
+
+	.unique-contact{
+		box-shadow: 0 30px 30px -10px rgba(0,0,0,0.2);
+		background: $white;
+		p{
+			margin-bottom: 0;
+			font-size: 0.813rem;
+
+			strong{
+				font-size: 1rem;
+			}
+		}
+	}
+
+	.parole{
+
+		h2{
+			font-size: 1rem;
+		}
+
+		p{
+			font-size: 0.813rem;
+		}
+	}
+
+	.staff{
+		display: flex;
+		align-items: center;
+
+		.staff-name{
+			p{
+				margin-bottom: 10px;
+				font-size: 0.813rem;
+			}
+		}
+	}
+
+	.handifacts{
+
+		h2{
+			font-size: 1rem;
+		}
+
+		ul{
+			li{
+				margin-bottom: 8px;
+				font-size: 0.813rem;
+				padding-left: 30px;
+				position: relative;
+
+				i{
+					color: $colorTitle;
+					position: absolute;
+					left: 0;
+					top: 2px;
+				}
+			}
+		}
+	}
+
+	.galeries{
+		figure{
+			margin-bottom: 30px;
+		}
+
+		figcaption{
+			text-align: left;
+			font-size: 0.688rem;
+		}
+	}
+}
+
+/* Partenaires */
+
+#partenaires{
+
+	.background-image{
+		//background: url("../images/logo.png") no-repeat center center / cover;
+	}
+
+}
+
 /* Contact */
 
 #contact{

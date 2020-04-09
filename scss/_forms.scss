@@ -3,3 +3,19 @@ form{
 		font-size: 0.85rem;
 	}
 }
+
+.filters{
+
+	color: $colorTitle;
+
+	form{
+		.filter-by{
+			font-size: 0.688rem;
+		}
+
+		label{
+			font-size: 0.813rem;
+			padding-top: 2px;
+		}
+	}
+}
