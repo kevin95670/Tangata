@@ -136,6 +136,14 @@
 		}
 	}
 
+	main{
+		div{
+			div.display{
+				display: block;
+			}
+		}
+	}
+
 	.lieu{
 		font-size: 0.875rem;
 	}
@@ -243,6 +251,84 @@
 		figcaption{
 			text-align: left;
 			font-size: 0.688rem;
+		}
+	}
+
+	.entreprise-offers{
+
+		.entreprise-offer{
+
+			h2{
+				font-size: 1.125rem;
+			}
+
+			p,a{
+				font-size: 0.813rem;
+			}
+
+			a{
+				color: $colorTitle;
+				text-decoration: underline;
+				font-style: italic;
+			}
+
+		}
+
+		.offers-pagination{
+
+			i,a{
+				color: $colorTitle;
+				font-size: 1.125rem;
+				margin-right: 5px;
+			}
+
+			a.active{
+				color:$colorBlue;
+			}
+		}
+	}
+
+	.entreprise-events{
+		h2{
+			i{
+				color: $colorTitle;
+			}
+
+			&:hover{
+				cursor:pointer;
+			}
+		}
+		ul{
+
+			li{
+				margin-bottom: 8px;
+				font-size: 0.813rem;
+				padding-left: 30px;
+				position: relative;
+
+				i{
+					color: $colorTitle;
+					position: absolute;
+					left: 0;
+					top: 2px;
+				}
+			}
+		}
+
+		.entreprise-event-to-come, .entreprise-event-passed{
+			h2{
+				font-size: 1.125rem;
+			}
+
+			p,a{
+				font-size: 0.813rem;
+			}
+
+			a{
+				color: $colorTitle;
+				text-decoration: underline;
+				font-style: italic;
+			}
 		}
 	}
 }

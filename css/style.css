@@ -33,6 +33,12 @@ p {
   padding: 0;
 }
 
+/* line 32, ../scss/_reset.scss */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /* line 1, ../scss/_header.scss */
 header {
   position: fixed;
@@ -137,52 +143,57 @@ i {
 }
 
 /* line 55, ../scss/_common.scss */
+.hide {
+  display: none;
+}
+
+/* line 59, ../scss/_common.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 59, ../scss/_common.scss */
+/* line 63, ../scss/_common.scss */
 .text-underline {
   text-decoration: underline;
 }
 
-/* line 63, ../scss/_common.scss */
+/* line 67, ../scss/_common.scss */
 .btns {
   width: 250px;
   border-radius: 0;
   font-size: 1rem;
   font-weight: 500;
 }
-/* line 69, ../scss/_common.scss */
+/* line 73, ../scss/_common.scss */
 .btns:hover {
   font-size: 1.1rem;
   transition: font-size .5s;
 }
 
-/* line 75, ../scss/_common.scss */
+/* line 79, ../scss/_common.scss */
 .btn-blue {
   color: #037CC2;
   border: 2px solid #037CC2;
 }
-/* line 79, ../scss/_common.scss */
+/* line 83, ../scss/_common.scss */
 .btn-blue:hover {
   color: #037CC2;
 }
 
-/* line 84, ../scss/_common.scss */
+/* line 88, ../scss/_common.scss */
 .btn-fill-blue {
   color: #FFF;
   border: 2px solid #037CC2;
   background: #037CC2;
 }
 
-/* line 90, ../scss/_common.scss */
+/* line 94, ../scss/_common.scss */
 .btn-white {
   color: #FFF;
   border: 2px solid #FFF;
 }
 
-/* line 99, ../scss/_common.scss */
+/* line 103, ../scss/_common.scss */
 .overlay {
   content: "";
   top: 0;
@@ -194,7 +205,7 @@ i {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.89) 56.46%, #FFFFFF 100%);
 }
 
-/* line 110, ../scss/_common.scss */
+/* line 114, ../scss/_common.scss */
 .background-image {
   padding-top: 110px;
 }
@@ -315,142 +326,206 @@ form label {
   max-width: 95px;
   height: auto;
 }
-/* line 139, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
+#entreprise main div div.display {
+  display: block;
+}
+/* line 147, ../scss/style.scss */
 #entreprise .lieu {
   font-size: 0.875rem;
 }
-/* line 145, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 #entreprise .entreprise-section p {
   padding-bottom: 10px;
   font-size: 0.875rem;
   border-bottom: 1px solid #ECECEC;
 }
-/* line 150, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 #entreprise .entreprise-section p.active {
   border-bottom: 2px solid #037CC2;
   font-weight: bold;
 }
-/* line 155, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 #entreprise .entreprise-section p:hover {
   cursor: pointer;
 }
-/* line 163, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 #entreprise .numbers p {
   color: #005F52;
   margin-bottom: 0;
   font-size: 1rem;
 }
-/* line 168, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 #entreprise .numbers p strong {
   font-size: 1.5rem;
 }
-/* line 173, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 #entreprise .numbers .overlay {
   background: #005F52;
   opacity: .1;
 }
-/* line 179, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
 #entreprise .unique-contact {
   box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
   background: #FFF;
 }
-/* line 182, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 #entreprise .unique-contact p {
   margin-bottom: 0;
   font-size: 0.813rem;
 }
-/* line 186, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 #entreprise .unique-contact p strong {
   font-size: 1rem;
 }
-/* line 194, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 #entreprise .parole h2 {
   font-size: 1rem;
 }
-/* line 198, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 #entreprise .parole p {
   font-size: 0.813rem;
 }
-/* line 203, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 #entreprise .staff {
   display: flex;
   align-items: center;
 }
-/* line 208, ../scss/style.scss */
+/* line 216, ../scss/style.scss */
 #entreprise .staff .staff-name p {
   margin-bottom: 10px;
   font-size: 0.813rem;
 }
-/* line 217, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 #entreprise .handifacts h2 {
   font-size: 1rem;
 }
-/* line 222, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 #entreprise .handifacts ul li {
   margin-bottom: 8px;
   font-size: 0.813rem;
   padding-left: 30px;
   position: relative;
 }
-/* line 228, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 #entreprise .handifacts ul li i {
   color: #4c4c4c;
   position: absolute;
   left: 0;
   top: 2px;
 }
-/* line 239, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 #entreprise .galeries figure {
   margin-bottom: 30px;
 }
-/* line 243, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 #entreprise .galeries figcaption {
   text-align: left;
   font-size: 0.688rem;
+}
+/* line 261, ../scss/style.scss */
+#entreprise .entreprise-offers .entreprise-offer h2 {
+  font-size: 1.125rem;
+}
+/* line 265, ../scss/style.scss */
+#entreprise .entreprise-offers .entreprise-offer p, #entreprise .entreprise-offers .entreprise-offer a {
+  font-size: 0.813rem;
+}
+/* line 269, ../scss/style.scss */
+#entreprise .entreprise-offers .entreprise-offer a {
+  color: #4c4c4c;
+  text-decoration: underline;
+  font-style: italic;
+}
+/* line 279, ../scss/style.scss */
+#entreprise .entreprise-offers .offers-pagination i, #entreprise .entreprise-offers .offers-pagination a {
+  color: #4c4c4c;
+  font-size: 1.125rem;
+  margin-right: 5px;
+}
+/* line 285, ../scss/style.scss */
+#entreprise .entreprise-offers .offers-pagination a.active {
+  color: #037CC2;
+}
+/* line 293, ../scss/style.scss */
+#entreprise .entreprise-events h2 i {
+  color: #4c4c4c;
+}
+/* line 297, ../scss/style.scss */
+#entreprise .entreprise-events h2:hover {
+  cursor: pointer;
+}
+/* line 303, ../scss/style.scss */
+#entreprise .entreprise-events ul li {
+  margin-bottom: 8px;
+  font-size: 0.813rem;
+  padding-left: 30px;
+  position: relative;
+}
+/* line 309, ../scss/style.scss */
+#entreprise .entreprise-events ul li i {
+  color: #4c4c4c;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+/* line 319, ../scss/style.scss */
+#entreprise .entreprise-events .entreprise-event-to-come h2, #entreprise .entreprise-events .entreprise-event-passed h2 {
+  font-size: 1.125rem;
+}
+/* line 323, ../scss/style.scss */
+#entreprise .entreprise-events .entreprise-event-to-come p, #entreprise .entreprise-events .entreprise-event-to-come a, #entreprise .entreprise-events .entreprise-event-passed p, #entreprise .entreprise-events .entreprise-event-passed a {
+  font-size: 0.813rem;
+}
+/* line 327, ../scss/style.scss */
+#entreprise .entreprise-events .entreprise-event-to-come a, #entreprise .entreprise-events .entreprise-event-passed a {
+  color: #4c4c4c;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 /* Partenaires */
 /* Contact */
 /* A propos */
-/* line 280, ../scss/style.scss */
+/* line 366, ../scss/style.scss */
 #about .about h2 {
   font-size: 0.813rem;
 }
-/* line 284, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 #about .about p {
   font-size: 0.813rem;
 }
 
 /* Tarifs */
-/* line 298, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 #tarifs .tarifs {
   box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
   background: #FFF;
 }
-/* line 305, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 #tarifs .tarif-top p.first {
   font-size: 1.563rem;
 }
-/* line 309, ../scss/style.scss */
+/* line 395, ../scss/style.scss */
 #tarifs .tarif-top p.last {
   font-size: 0.875rem;
 }
-/* line 313, ../scss/style.scss */
+/* line 399, ../scss/style.scss */
 #tarifs .tarif-top h2 {
   color: #037CC2;
   font-size: 0.875rem;
 }
-/* line 318, ../scss/style.scss */
+/* line 404, ../scss/style.scss */
 #tarifs .tarif-top .see-more {
   width: 150px;
 }
-/* line 324, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 #tarifs .tarif-bottom ul {
   text-align: left;
   list-style: none;
   padding: 0;
 }
-/* line 329, ../scss/style.scss */
+/* line 415, ../scss/style.scss */
 #tarifs .tarif-bottom ul li::before {
   content: "\2022";
   color: #037CC2;
@@ -458,7 +533,7 @@ form label {
   width: 15px;
   font-size: 1.563rem;
 }
-/* line 337, ../scss/style.scss */
+/* line 423, ../scss/style.scss */
 #tarifs .tarif-bottom ul li {
   margin-bottom: 10px;
   color: #4c4c4c;
