@@ -138,62 +138,72 @@ i {
 }
 
 /* line 51, ../scss/_common.scss */
+.green-circle {
+  border: 2px solid #005F52;
+  border-radius: 100px;
+  background: #005F52;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 60, ../scss/_common.scss */
 .required {
   color: #FF0000;
 }
 
-/* line 55, ../scss/_common.scss */
+/* line 64, ../scss/_common.scss */
 .hide {
   display: none;
 }
 
-/* line 59, ../scss/_common.scss */
+/* line 68, ../scss/_common.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 63, ../scss/_common.scss */
+/* line 72, ../scss/_common.scss */
 .text-underline {
   text-decoration: underline;
 }
 
-/* line 67, ../scss/_common.scss */
+/* line 76, ../scss/_common.scss */
 .btns {
   width: 250px;
   border-radius: 0;
   font-size: 1rem;
   font-weight: 500;
 }
-/* line 73, ../scss/_common.scss */
+/* line 82, ../scss/_common.scss */
 .btns:hover {
   font-size: 1.1rem;
   transition: font-size .5s;
 }
 
-/* line 79, ../scss/_common.scss */
+/* line 88, ../scss/_common.scss */
 .btn-blue {
   color: #037CC2;
   border: 2px solid #037CC2;
 }
-/* line 83, ../scss/_common.scss */
+/* line 92, ../scss/_common.scss */
 .btn-blue:hover {
   color: #037CC2;
 }
 
-/* line 88, ../scss/_common.scss */
+/* line 97, ../scss/_common.scss */
 .btn-fill-blue {
   color: #FFF;
   border: 2px solid #037CC2;
   background: #037CC2;
 }
 
-/* line 94, ../scss/_common.scss */
+/* line 103, ../scss/_common.scss */
 .btn-white {
   color: #FFF;
   border: 2px solid #FFF;
 }
 
-/* line 103, ../scss/_common.scss */
+/* line 112, ../scss/_common.scss */
 .overlay {
   content: "";
   top: 0;
@@ -205,7 +215,7 @@ i {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.89) 56.46%, #FFFFFF 100%);
 }
 
-/* line 114, ../scss/_common.scss */
+/* line 123, ../scss/_common.scss */
 .background-image {
   padding-top: 110px;
 }
@@ -484,48 +494,161 @@ form label {
   font-style: italic;
 }
 
+/* New entreprise */
+/* line 344, ../scss/style.scss */
+#new-entreprise .wrapper-logo {
+  background: #FFF;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100px;
+  width: 110px;
+  height: 110px;
+  bottom: -50px;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 354, ../scss/style.scss */
+#new-entreprise .wrapper-logo .logo-entreprise {
+  width: 110px;
+  height: 110px;
+}
+/* line 359, ../scss/style.scss */
+#new-entreprise .wrapper-logo .logo-entreprise .logo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 95px;
+  height: auto;
+}
+
 /* Partenaires */
+/* Offer */
+/* line 384, ../scss/style.scss */
+#offer .wrapper-logo {
+  background: #FFF;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100px;
+  width: 110px;
+  height: 110px;
+  bottom: -50px;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 394, ../scss/style.scss */
+#offer .wrapper-logo .logo-entreprise {
+  width: 110px;
+  height: 110px;
+}
+/* line 399, ../scss/style.scss */
+#offer .wrapper-logo .logo-entreprise img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 95px;
+  height: auto;
+}
+/* line 410, ../scss/style.scss */
+#offer .offer-presentation a {
+  color: #4c4c4c;
+  font-size: 0.813rem;
+}
+/* line 417, ../scss/style.scss */
+#offer .offer-presentation .numbers h3 {
+  color: #005F52;
+  font-size: 1rem;
+}
+/* line 422, ../scss/style.scss */
+#offer .offer-presentation .numbers i {
+  color: #005F52;
+  font-size: 1.75rem;
+}
+/* line 427, ../scss/style.scss */
+#offer .offer-presentation .numbers .overlay {
+  background: #005F52;
+  opacity: .1;
+}
+/* line 433, ../scss/style.scss */
+#offer .offer-presentation .more-job {
+  color: #037CC2;
+  font-size: 1rem;
+}
+/* line 440, ../scss/style.scss */
+#offer .offer-description a {
+  font-size: 1rem;
+}
+/* line 447, ../scss/style.scss */
+#offer .profile-list > li {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 50px;
+  color: #4c4c4c;
+  font-size: 0.813rem;
+}
+/* line 454, ../scss/style.scss */
+#offer .profile-list > li i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+/* line 466, ../scss/style.scss */
+#offer .profile-list > li:last-child i {
+  top: 0;
+  transform: translateY(0);
+}
+/* line 473, ../scss/style.scss */
+#offer .profile-list .sublist {
+  list-style: inside;
+}
+/* line 476, ../scss/style.scss */
+#offer .profile-list .sublist li {
+  margin-bottom: 10px;
+}
+
 /* Contact */
 /* A propos */
-/* line 366, ../scss/style.scss */
+/* line 503, ../scss/style.scss */
 #about .about h2 {
   font-size: 0.813rem;
 }
-/* line 370, ../scss/style.scss */
+/* line 507, ../scss/style.scss */
 #about .about p {
   font-size: 0.813rem;
 }
 
 /* Tarifs */
-/* line 384, ../scss/style.scss */
+/* line 521, ../scss/style.scss */
 #tarifs .tarifs {
   box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
   background: #FFF;
 }
-/* line 391, ../scss/style.scss */
+/* line 528, ../scss/style.scss */
 #tarifs .tarif-top p.first {
   font-size: 1.563rem;
 }
-/* line 395, ../scss/style.scss */
+/* line 532, ../scss/style.scss */
 #tarifs .tarif-top p.last {
   font-size: 0.875rem;
 }
-/* line 399, ../scss/style.scss */
+/* line 536, ../scss/style.scss */
 #tarifs .tarif-top h2 {
   color: #037CC2;
   font-size: 0.875rem;
 }
-/* line 404, ../scss/style.scss */
+/* line 541, ../scss/style.scss */
 #tarifs .tarif-top .see-more {
   width: 150px;
 }
-/* line 410, ../scss/style.scss */
+/* line 547, ../scss/style.scss */
 #tarifs .tarif-bottom ul {
   text-align: left;
   list-style: none;
   padding: 0;
 }
-/* line 415, ../scss/style.scss */
+/* line 552, ../scss/style.scss */
 #tarifs .tarif-bottom ul li::before {
   content: "\2022";
   color: #037CC2;
@@ -533,7 +656,7 @@ form label {
   width: 15px;
   font-size: 1.563rem;
 }
-/* line 423, ../scss/style.scss */
+/* line 560, ../scss/style.scss */
 #tarifs .tarif-bottom ul li {
   margin-bottom: 10px;
   color: #4c4c4c;
