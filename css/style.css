@@ -239,6 +239,56 @@ form label {
   padding-top: 2px;
 }
 
+/* line 26, ../scss/_forms.scss */
+#new-entreprise form i {
+  color: #4c4c4c;
+}
+/* line 30, ../scss/_forms.scss */
+#new-entreprise form input:not([type="submit"]), #new-entreprise form textarea {
+  background: transparent;
+  border: none;
+}
+/* line 34, ../scss/_forms.scss */
+#new-entreprise form input:not([type="submit"])#about, #new-entreprise form textarea#about {
+  width: 90%;
+}
+/* line 37, ../scss/_forms.scss */
+#new-entreprise form input:not([type="submit"])#about::placeholder, #new-entreprise form textarea#about::placeholder {
+  text-align: left;
+}
+/* line 42, ../scss/_forms.scss */
+#new-entreprise form input:not([type="submit"])#company-name, #new-entreprise form textarea#company-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+/* line 47, ../scss/_forms.scss */
+#new-entreprise form input:not([type="submit"])::placeholder, #new-entreprise form textarea::placeholder {
+  color: #4c4c4c;
+  text-align: center;
+}
+/* line 56, ../scss/_forms.scss */
+#new-entreprise form .numbers i {
+  color: #005F52;
+}
+/* line 61, ../scss/_forms.scss */
+#new-entreprise form .numbers .company-parity input:not([type="submit"]) {
+  max-width: 35%;
+}
+/* line 64, ../scss/_forms.scss */
+#new-entreprise form .numbers .company-parity input:not([type="submit"])::placeholder {
+  text-align: left;
+}
+/* line 70, ../scss/_forms.scss */
+#new-entreprise form .numbers input:not([type="submit"]) {
+  max-width: 80%;
+}
+/* line 73, ../scss/_forms.scss */
+#new-entreprise form .numbers input:not([type="submit"])::placeholder {
+  color: #005F52;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
 /* Index page */
 /* line 14, ../scss/style.scss */
 #index h1 {
@@ -250,61 +300,60 @@ form label {
 #index .logo {
   margin-bottom: 50px;
   padding-top: 130px;
-  height: 75px;
 }
-/* line 26, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 #index .overlay {
   opacity: 0.7;
   background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
 }
 
 /* Tangata */
-/* line 42, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 #tangata .description p {
   margin: 7px 40px 21px;
 }
-/* line 46, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 #tangata .tangata-help {
   padding: 50px 14px;
   background: url("../images/logo.png") no-repeat right bottom;
 }
-/* line 50, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 #tangata .tangata-help .overlay {
   background: linear-gradient(135deg, #549692 0%, #2A5D59 100%);
 }
-/* line 54, ../scss/style.scss */
+/* line 53, ../scss/style.scss */
 #tangata .tangata-help h2 {
   color: #FFF;
 }
-/* line 59, ../scss/style.scss */
+/* line 58, ../scss/style.scss */
 #tangata .see-entreprises {
   background-color: #EEEEEE;
 }
 
 /* Entreprises */
-/* line 74, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 #entreprises .entreprises .entreprise {
   padding: 0 30px;
 }
-/* line 78, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 #entreprises .entreprises p {
   font-size: 0.813rem;
 }
-/* line 82, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 #entreprises .entreprises a {
   color: #4c4c4c;
   font-size: 0.813rem;
   text-decoration: underline;
 }
-/* line 89, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 #entreprises .add-entreprise {
   border: 1px dashed #979797;
 }
-/* line 92, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 #entreprises .add-entreprise .new-entreprise {
   background-color: #F1F1F1;
 }
-/* line 96, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 #entreprises .add-entreprise .new-entreprise .plus-icon i {
   color: #4c4c4c;
   font-size: 5.25rem;
@@ -312,7 +361,7 @@ form label {
 }
 
 /* Entreprise */
-/* line 114, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 #entreprise .wrapper-logo {
   background: #FFF;
   left: 50%;
@@ -323,12 +372,12 @@ form label {
   bottom: -50px;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 124, ../scss/style.scss */
+/* line 123, ../scss/style.scss */
 #entreprise .wrapper-logo .logo-entreprise {
   width: 110px;
   height: 110px;
 }
-/* line 129, ../scss/style.scss */
+/* line 128, ../scss/style.scss */
 #entreprise .wrapper-logo .logo-entreprise img {
   top: 50%;
   left: 50%;
@@ -336,158 +385,158 @@ form label {
   max-width: 95px;
   height: auto;
 }
-/* line 141, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 #entreprise main div div.display {
   display: block;
 }
-/* line 147, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 #entreprise .lieu {
   font-size: 0.875rem;
 }
-/* line 153, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 #entreprise .entreprise-section p {
   padding-bottom: 10px;
   font-size: 0.875rem;
   border-bottom: 1px solid #ECECEC;
 }
-/* line 158, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 #entreprise .entreprise-section p.active {
   border-bottom: 2px solid #037CC2;
   font-weight: bold;
 }
-/* line 163, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 #entreprise .entreprise-section p:hover {
   cursor: pointer;
 }
-/* line 171, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 #entreprise .numbers p {
   color: #005F52;
   margin-bottom: 0;
   font-size: 1rem;
 }
-/* line 176, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 #entreprise .numbers p strong {
   font-size: 1.5rem;
 }
-/* line 181, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 #entreprise .numbers .overlay {
   background: #005F52;
   opacity: .1;
 }
-/* line 187, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 #entreprise .unique-contact {
   box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
   background: #FFF;
 }
-/* line 190, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 #entreprise .unique-contact p {
   margin-bottom: 0;
   font-size: 0.813rem;
 }
-/* line 194, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 #entreprise .unique-contact p strong {
   font-size: 1rem;
 }
-/* line 202, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 #entreprise .parole h2 {
   font-size: 1rem;
 }
-/* line 206, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 #entreprise .parole p {
   font-size: 0.813rem;
 }
-/* line 211, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 #entreprise .staff {
   display: flex;
   align-items: center;
 }
-/* line 216, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 #entreprise .staff .staff-name p {
   margin-bottom: 10px;
   font-size: 0.813rem;
 }
-/* line 225, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 #entreprise .handifacts h2 {
   font-size: 1rem;
 }
-/* line 230, ../scss/style.scss */
+/* line 229, ../scss/style.scss */
 #entreprise .handifacts ul li {
   margin-bottom: 8px;
   font-size: 0.813rem;
   padding-left: 30px;
   position: relative;
 }
-/* line 236, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 #entreprise .handifacts ul li i {
   color: #4c4c4c;
   position: absolute;
   left: 0;
   top: 2px;
 }
-/* line 247, ../scss/style.scss */
+/* line 246, ../scss/style.scss */
 #entreprise .galeries figure {
   margin-bottom: 30px;
 }
-/* line 251, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 #entreprise .galeries figcaption {
   text-align: left;
   font-size: 0.688rem;
 }
-/* line 261, ../scss/style.scss */
+/* line 260, ../scss/style.scss */
 #entreprise .entreprise-offers .entreprise-offer h2 {
   font-size: 1.125rem;
 }
-/* line 265, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 #entreprise .entreprise-offers .entreprise-offer p, #entreprise .entreprise-offers .entreprise-offer a {
   font-size: 0.813rem;
 }
-/* line 269, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 #entreprise .entreprise-offers .entreprise-offer a {
   color: #4c4c4c;
   text-decoration: underline;
   font-style: italic;
 }
-/* line 279, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
 #entreprise .entreprise-offers .offers-pagination i, #entreprise .entreprise-offers .offers-pagination a {
   color: #4c4c4c;
   font-size: 1.125rem;
   margin-right: 5px;
 }
-/* line 285, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 #entreprise .entreprise-offers .offers-pagination a.active {
   color: #037CC2;
 }
-/* line 293, ../scss/style.scss */
+/* line 292, ../scss/style.scss */
 #entreprise .entreprise-events h2 i {
   color: #4c4c4c;
 }
-/* line 297, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 #entreprise .entreprise-events h2:hover {
   cursor: pointer;
 }
-/* line 303, ../scss/style.scss */
+/* line 302, ../scss/style.scss */
 #entreprise .entreprise-events ul li {
   margin-bottom: 8px;
   font-size: 0.813rem;
   padding-left: 30px;
   position: relative;
 }
-/* line 309, ../scss/style.scss */
+/* line 308, ../scss/style.scss */
 #entreprise .entreprise-events ul li i {
   color: #4c4c4c;
   position: absolute;
   left: 0;
   top: 2px;
 }
-/* line 319, ../scss/style.scss */
+/* line 318, ../scss/style.scss */
 #entreprise .entreprise-events .entreprise-event-to-come h2, #entreprise .entreprise-events .entreprise-event-passed h2 {
   font-size: 1.125rem;
 }
-/* line 323, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 #entreprise .entreprise-events .entreprise-event-to-come p, #entreprise .entreprise-events .entreprise-event-to-come a, #entreprise .entreprise-events .entreprise-event-passed p, #entreprise .entreprise-events .entreprise-event-passed a {
   font-size: 0.813rem;
 }
-/* line 327, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 #entreprise .entreprise-events .entreprise-event-to-come a, #entreprise .entreprise-events .entreprise-event-passed a {
   color: #4c4c4c;
   text-decoration: underline;
@@ -495,7 +544,7 @@ form label {
 }
 
 /* New entreprise */
-/* line 344, ../scss/style.scss */
+/* line 343, ../scss/style.scss */
 #new-entreprise .wrapper-logo {
   background: #FFF;
   left: 50%;
@@ -506,12 +555,12 @@ form label {
   bottom: -50px;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 354, ../scss/style.scss */
+/* line 353, ../scss/style.scss */
 #new-entreprise .wrapper-logo .logo-entreprise {
   width: 110px;
   height: 110px;
 }
-/* line 359, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 #new-entreprise .wrapper-logo .logo-entreprise .logo {
   top: 50%;
   left: 50%;
@@ -519,10 +568,49 @@ form label {
   max-width: 95px;
   height: auto;
 }
+/* line 370, ../scss/style.scss */
+#new-entreprise .new-entreprise-section p {
+  padding-bottom: 10px;
+  font-size: 0.875rem;
+}
+/* line 374, ../scss/style.scss */
+#new-entreprise .new-entreprise-section p.active {
+  border-bottom: 2px solid #037CC2;
+  font-weight: bold;
+}
+/* line 383, ../scss/style.scss */
+#new-entreprise .numbers p {
+  color: #005F52;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+/* line 388, ../scss/style.scss */
+#new-entreprise .numbers p strong {
+  font-size: 1.5rem;
+}
+/* line 393, ../scss/style.scss */
+#new-entreprise .numbers .overlay {
+  background: #005F52;
+  opacity: .1;
+}
+/* line 399, ../scss/style.scss */
+#new-entreprise .unique-contact {
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  background: #FFF;
+}
+/* line 402, ../scss/style.scss */
+#new-entreprise .unique-contact p {
+  margin-bottom: 0;
+  font-size: 0.813rem;
+}
+/* line 406, ../scss/style.scss */
+#new-entreprise .unique-contact p strong {
+  font-size: 1rem;
+}
 
 /* Partenaires */
 /* Offer */
-/* line 384, ../scss/style.scss */
+/* line 427, ../scss/style.scss */
 #offer .wrapper-logo {
   background: #FFF;
   left: 50%;
@@ -533,12 +621,12 @@ form label {
   bottom: -50px;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 394, ../scss/style.scss */
+/* line 437, ../scss/style.scss */
 #offer .wrapper-logo .logo-entreprise {
   width: 110px;
   height: 110px;
 }
-/* line 399, ../scss/style.scss */
+/* line 442, ../scss/style.scss */
 #offer .wrapper-logo .logo-entreprise img {
   top: 50%;
   left: 50%;
@@ -546,36 +634,36 @@ form label {
   max-width: 95px;
   height: auto;
 }
-/* line 410, ../scss/style.scss */
+/* line 453, ../scss/style.scss */
 #offer .offer-presentation a {
   color: #4c4c4c;
   font-size: 0.813rem;
 }
-/* line 417, ../scss/style.scss */
+/* line 460, ../scss/style.scss */
 #offer .offer-presentation .numbers h3 {
   color: #005F52;
   font-size: 1rem;
 }
-/* line 422, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 #offer .offer-presentation .numbers i {
   color: #005F52;
   font-size: 1.75rem;
 }
-/* line 427, ../scss/style.scss */
+/* line 470, ../scss/style.scss */
 #offer .offer-presentation .numbers .overlay {
   background: #005F52;
   opacity: .1;
 }
-/* line 433, ../scss/style.scss */
+/* line 476, ../scss/style.scss */
 #offer .offer-presentation .more-job {
   color: #037CC2;
   font-size: 1rem;
 }
-/* line 440, ../scss/style.scss */
+/* line 483, ../scss/style.scss */
 #offer .offer-description a {
   font-size: 1rem;
 }
-/* line 447, ../scss/style.scss */
+/* line 490, ../scss/style.scss */
 #offer .profile-list > li {
   position: relative;
   padding-left: 60px;
@@ -583,7 +671,7 @@ form label {
   color: #4c4c4c;
   font-size: 0.813rem;
 }
-/* line 454, ../scss/style.scss */
+/* line 497, ../scss/style.scss */
 #offer .profile-list > li i {
   position: absolute;
   left: 0;
@@ -594,61 +682,61 @@ form label {
   align-items: center;
   color: #FFF;
 }
-/* line 466, ../scss/style.scss */
+/* line 509, ../scss/style.scss */
 #offer .profile-list > li:last-child i {
   top: 0;
   transform: translateY(0);
 }
-/* line 473, ../scss/style.scss */
+/* line 516, ../scss/style.scss */
 #offer .profile-list .sublist {
   list-style: inside;
 }
-/* line 476, ../scss/style.scss */
+/* line 519, ../scss/style.scss */
 #offer .profile-list .sublist li {
   margin-bottom: 10px;
 }
 
 /* Contact */
 /* A propos */
-/* line 503, ../scss/style.scss */
+/* line 546, ../scss/style.scss */
 #about .about h2 {
   font-size: 0.813rem;
 }
-/* line 507, ../scss/style.scss */
+/* line 550, ../scss/style.scss */
 #about .about p {
   font-size: 0.813rem;
 }
 
 /* Tarifs */
-/* line 521, ../scss/style.scss */
+/* line 564, ../scss/style.scss */
 #tarifs .tarifs {
   box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
   background: #FFF;
 }
-/* line 528, ../scss/style.scss */
+/* line 571, ../scss/style.scss */
 #tarifs .tarif-top p.first {
   font-size: 1.563rem;
 }
-/* line 532, ../scss/style.scss */
+/* line 575, ../scss/style.scss */
 #tarifs .tarif-top p.last {
   font-size: 0.875rem;
 }
-/* line 536, ../scss/style.scss */
+/* line 579, ../scss/style.scss */
 #tarifs .tarif-top h2 {
   color: #037CC2;
   font-size: 0.875rem;
 }
-/* line 541, ../scss/style.scss */
+/* line 584, ../scss/style.scss */
 #tarifs .tarif-top .see-more {
   width: 150px;
 }
-/* line 547, ../scss/style.scss */
+/* line 590, ../scss/style.scss */
 #tarifs .tarif-bottom ul {
   text-align: left;
   list-style: none;
   padding: 0;
 }
-/* line 552, ../scss/style.scss */
+/* line 595, ../scss/style.scss */
 #tarifs .tarif-bottom ul li::before {
   content: "\2022";
   color: #037CC2;
@@ -656,7 +744,7 @@ form label {
   width: 15px;
   font-size: 1.563rem;
 }
-/* line 560, ../scss/style.scss */
+/* line 603, ../scss/style.scss */
 #tarifs .tarif-bottom ul li {
   margin-bottom: 10px;
   color: #4c4c4c;

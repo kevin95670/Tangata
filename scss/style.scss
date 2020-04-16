@@ -20,7 +20,6 @@
 	.logo{
 		margin-bottom: 50px;
 		padding-top: 130px;
-		height: 75px;
 	}
 
 	.overlay{
@@ -362,6 +361,50 @@
 				transform: translate(-50%,-50%);
 				max-width: 95px;
 				height: auto;
+			}
+		}
+	}
+
+	.new-entreprise-section{
+
+		p{
+			padding-bottom: 10px;
+			font-size: 0.875rem;
+
+			&.active{
+				border-bottom: 2px solid $colorBlue;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.numbers{
+
+		p{
+			color: $colorGreen;
+			margin-bottom: 0;
+			font-size: 1rem;
+
+			strong{
+				font-size: 1.5rem;
+			}
+		}
+
+	.overlay{
+			background: $colorGreen;
+			opacity: .1;
+		}
+	}
+
+	.unique-contact{
+		box-shadow: 0 30px 30px -10px rgba(0,0,0,0.2);
+		background: $white;
+		p{
+			margin-bottom: 0;
+			font-size: 0.813rem;
+
+			strong{
+				font-size: 1rem;
 			}
 		}
 	}

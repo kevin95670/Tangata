@@ -19,3 +19,63 @@ form{
 		}
 	}
 }
+
+#new-entreprise{
+	form{
+
+		i{
+			color: $colorTitle;
+		}
+
+		input:not([type="submit"]),textarea{
+			background: transparent;
+			border: none;
+
+			&#about{
+				width: 90%;
+
+				&::placeholder{
+					text-align: left;
+				}
+			}
+
+			&#company-name{
+				font-weight: bold;
+				font-size: 1.25rem;
+			}
+
+			&::placeholder{
+				color:$colorTitle;
+				text-align: center;
+			}
+		}
+
+
+		& .numbers{
+
+			i{
+				color: $colorGreen;
+			}
+
+			& .company-parity{
+				input:not([type="submit"]){
+					max-width: 35%;
+
+					&::placeholder{
+						text-align: left;
+					}
+				}
+			}
+
+			input:not([type="submit"]){
+				max-width: 80%;
+
+				&::placeholder{
+					color: $colorGreen;
+					font-weight: bold;
+					font-size: 1.125rem;
+				}
+			}
+		}
+	}
+}
