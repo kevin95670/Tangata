@@ -9,6 +9,7 @@
 			<div class="form-group">
 			  <label for="entreprise-type">Quel est le type de votre entreprise ?</label><span class="required"> *</span>
 			  <select class="form-control" id="entreprise-type" required>
+			  	<option value="">&nbsp;</option>
 			    <option value="GE">Grande entreprise (GE) plus de 5000</option>
 			    <option value="ETI">Entreprise de Taille Intermédiaire (ETI) entre 250 et 4999</option>
 			    <option value="PME">Petite et Moyenne Entreprise (PME) entre 10 et 249</option>
@@ -18,6 +19,7 @@
 			<div class="form-group">
 			  <label for="handicap">Avez-vous une ressource dédiée handicap dans votre entreprise ?</label><span class="required"> *</span>
 			  <select class="form-control" id="handicap" required>
+			  	<option value="">&nbsp;</option>
 			    <option value="oui">Oui</option>
 			    <option value="non">Non</option>
 			  </select>
@@ -30,6 +32,7 @@
 			<div class="form-group">
 			  <label for="interest">Seriez-vous intéressé par Tangata Job ?</label><span class="required"> *</span>
 			  <select class="form-control" id="interest" required>
+			  	<option value="">&nbsp;</option>
 			    <option value="oui">Oui</option>
 			    <option value="non">Non</option>
 			  </select>
@@ -37,6 +40,7 @@
 			<div class="form-group">
 			  <label for="why-no">Si non, pourquoi ?</label>
 			  <select class="form-control" id="why-no">
+			  	<option value="">&nbsp;</option>
 			    <option value="budget">Pour des raisons budgétaires</option>
 			    <option value="non concerne">Pas concerné par le sujet</option>
 			    <option value="prestataire">Je fais déjà appel à d'autres prestataires</option>
@@ -50,6 +54,7 @@
 			<div class="form-group">
 			  <label for="rate-tangata">À quel niveau seriez-vous prêt à nous recommander ?</label><span class="required"> *</span>
 			  <select class="form-control" id="rate-tangata">
+			  	<option value="">&nbsp;</option>
 			    <option value="1">1</option>
 			    <option value="2">2</option>
 			    <option value="3">3</option>
@@ -65,6 +70,7 @@
 			<div class="form-group">
 			  <label for="accept">J'accepte que les informations saisies soient utilisées à des fins de contact uniquement par l'équipe Tangata.</label><span class="required"> *</span>
 			  <select class="form-control" id="accept" required>
+			  	<option value="">&nbsp;</option>
 			    <option value="oui">J'accepte</option>
 			    <option value="non">Je n'accepte pas</option>
 			  </select>

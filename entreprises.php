@@ -17,25 +17,25 @@
 					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>BNP Paris Cardif</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
-					<a class"font-italic" href="entreprise">Voir la fiche entreprise</a>
+					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
 				</div>
 				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
 					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>Danone</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
-					<a class"font-italic" href="entreprise">Voir la fiche entreprise</a>
+					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
 				</div>
 				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
 					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>Engie</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
-					<a class"font-italic" href="entreprise">Voir la fiche entreprise</a>
+					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
 				</div>
 				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
 					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>Arval - BNP Paris Group</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
-					<a class"font-italic" href="entreprise">Voir la fiche entreprise</a>
+					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
 				</div>
 			</div>
 			<div class="row add-entreprise mb-5 mx-3 py-3 px-3">

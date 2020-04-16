@@ -53,9 +53,8 @@ header {
   z-index: 3;
 }
 /* line 13, ../scss/_header.scss */
-header img {
+header .logo {
   width: 135px;
-  height: auto;
 }
 
 /* line 1, ../scss/_footer.scss */
