@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function()
+{
 	$('.entreprise-section div').on('click', function(){
 		var divToDisplay = '.' + $(this).attr('id');
 
@@ -21,4 +22,5 @@ $(document).ready(function(){
 		$('.entreprise-event-passed').toggle();
 		$(this).find('i').toggleClass('d-none');
 	});
+
 });

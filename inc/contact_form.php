@@ -1,14 +1,14 @@
-<!-- Formulaire de contact 
+<!--
 <div class="row questionnaire mb-5">
 	<div class="col-md-12">
 		<form method="post" action="form-contact.php">
 			<div class="form-group">
 			  <label for="company-name">Nom de l'entreprise</label><span class="required"> *</span>
-			  <input type="text" class="form-control" id="company-name" placeholder="Nom de l'entreprise" required>
+			  <input type="text" class="form-control" id="company-name" name="company-name" placeholder="Nom de l'entreprise" required>
 			</div>
 			<div class="form-group">
 			  <label for="entreprise-type">Quel est le type de votre entreprise ?</label><span class="required"> *</span>
-			  <select class="form-control" id="entreprise-type" required>
+			  <select class="form-control" id="entreprise-type" name="entreprise-type" required>
 			  	<option value="">&nbsp;</option>
 			    <option value="GE">Grande entreprise (GE) plus de 5000</option>
 			    <option value="ETI">Entreprise de Taille Intermédiaire (ETI) entre 250 et 4999</option>
@@ -18,7 +18,7 @@
 			</div>
 			<div class="form-group">
 			  <label for="handicap">Avez-vous une ressource dédiée handicap dans votre entreprise ?</label><span class="required"> *</span>
-			  <select class="form-control" id="handicap" required>
+			  <select class="form-control" id="handicap" name="handicap" required>
 			  	<option value="">&nbsp;</option>
 			    <option value="oui">Oui</option>
 			    <option value="non">Non</option>
@@ -26,12 +26,12 @@
 			</div>
 	    	<div class="form-group">
 			    <label for="rate-handicap">Quel est le taux de Travailleurs Handicapés dans votre entreprise ? (en %)</label>
-			    <input type="text" class="form-control" id="rate-handicap" aria-describedby="rateHelp">
+			    <input type="text" class="form-control" id="rate-handicap" name="rate-handicap" aria-describedby="rateHelp">
 			    <small id="rateHelp" class="form-text text-muted">Si vous n'en avez pas connaissance, laissez ce champs vide.</small>
 		  	</div>
 			<div class="form-group">
 			  <label for="interest">Seriez-vous intéressé par Tangata Job ?</label><span class="required"> *</span>
-			  <select class="form-control" id="interest" required>
+			  <select class="form-control" id="interest" name="interest" required>
 			  	<option value="">&nbsp;</option>
 			    <option value="oui">Oui</option>
 			    <option value="non">Non</option>
@@ -39,7 +39,7 @@
 			</div>
 			<div class="form-group">
 			  <label for="why-no">Si non, pourquoi ?</label>
-			  <select class="form-control" id="why-no">
+			  <select class="form-control" id="why-no" name="why-no">
 			  	<option value="">&nbsp;</option>
 			    <option value="budget">Pour des raisons budgétaires</option>
 			    <option value="non concerne">Pas concerné par le sujet</option>
@@ -53,7 +53,7 @@
 		  	</div>
 			<div class="form-group">
 			  <label for="rate-tangata">À quel niveau seriez-vous prêt à nous recommander ?</label><span class="required"> *</span>
-			  <select class="form-control" id="rate-tangata">
+			  <select class="form-control" id="rate-tangata" name="rate-tangata">
 			  	<option value="">&nbsp;</option>
 			    <option value="1">1</option>
 			    <option value="2">2</option>
@@ -64,12 +64,12 @@
 			</div>
 	    	<div class="form-group">
 			    <label for="recontact">Seriez-vous intéressé pour être re-contacté pour devenir bêta-testeur de notre solution ?</label>
-			    <input type="text" class="form-control" id="recontact" aria-describedby="recontactHelp">
+			    <input type="text" class="form-control" id="recontact" name="recontact" aria-describedby="recontactHelp">
 			    <small id="recontactHelp" class="form-text text-muted">Si oui, laissez nous votre adresse e-mail (Promis, nous ne vous spamerons pas !)</small>
 		  	</div>
 			<div class="form-group">
 			  <label for="accept">J'accepte que les informations saisies soient utilisées à des fins de contact uniquement par l'équipe Tangata.</label><span class="required"> *</span>
-			  <select class="form-control" id="accept" required>
+			  <select class="form-control" id="accept" name="accept" required>
 			  	<option value="">&nbsp;</option>
 			    <option value="oui">J'accepte</option>
 			    <option value="non">Je n'accepte pas</option>
