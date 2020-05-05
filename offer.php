@@ -10,7 +10,7 @@
 			<div class="row position-relative background-image mb-5">
 				<div class="wrapper-logo position-absolute">
 					<div class="logo-entreprise position-relative">
-						<img class="position-absolute" src="images/logo.png" alt="Entreprise">
+						<img class="position-absolute" src="images/bnp-paribas.png" alt="Entreprise">
 					</div>
 				</div>
 			</div>

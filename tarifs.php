@@ -9,13 +9,13 @@
 		<div class="container">
 			<div class="row position-relative background-image mb-5">
 				<div class="overlay"></div>
-				<div class="col-12">
+				<div class="col-12 gradient pt-5">
 					<h1>Une offre qui s'adapte à vos besoins et à votre budget</h1>
 				</div>
 			</div>
 			<div class="row tarifs mx-3 mb-5">
 				<div class="col-md-12 tarif-top border-bottom">
-					<img src="images/logo.png" class="img-fluid mb-2 mx-auto" alt="Tangata">
+					<img src="images/tarif-deco.png" class="img-fluid mb-2 mx-auto" alt="Tangata">
 					<h2 class="mb-3">Une offre complète</h2>
 					<p class="font-weight-bold first mb-0">6000 €</p>
 					<p class="mb-4 last">+ 2000 € par an</p>

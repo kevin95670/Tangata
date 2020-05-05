@@ -10,7 +10,7 @@
 			<div class="row position-relative background-image mb-5">
 				<div class="wrapper-logo position-absolute">
 					<div class="logo-entreprise position-relative">
-						<img class="position-absolute" src="images/logo.png" alt="Entreprise">
+						<img class="position-absolute" src="images/bnp-paribas.png" alt="Entreprise">
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,7 @@
 				</div>
 				<div class="row staff mb-5">
 					<div class="col-6">
-						<img class="img-fluid" src="images/logo.png" alt="Entreprise">
+						<img class="img-fluid" src="images/myriam.png" alt="Entreprise">
 					</div>
 					<div class="col-6 text-left staff-name">
 						<p><strong>Myriam Darmella</strong></p>
@@ -100,20 +100,20 @@
 						<div class="row galerie">
 							<div class="col-12">
 								<figure>
-									<img class="img-fluid" src="images/logo.png" alt="Entreprise">
-									<figcaption>Lisa - Community Manager</figcaption>
+									<img class="img-fluid" src="images/entreprise1.png" alt="Entreprise">
+									<figcaption>Hayat - Manager</figcaption>
 								</figure>
 							</div>
 							<div class="col-6">
 								<figure>
-									<img class="img-fluid" src="images/logo.png" alt="Entreprise">
-									<figcaption>Lisa - Community Manager</figcaption>
+									<img class="img-fluid" src="images/entreprise2.png" alt="Entreprise">
+									<figcaption>Cardif lab'</figcaption>
 								</figure>
 							</div>
 							<div class="col-6">
 								<figure>
-									<img class="img-fluid" src="images/logo.png" alt="Entreprise">
-									<figcaption>Lisa - Community Manager</figcaption>
+									<img class="img-fluid" src="images/entreprise3.png" alt="Entreprise">
+									<figcaption>Myriam et Hayat</figcaption>
 								</figure>
 							</div>
 						</div>
@@ -122,20 +122,20 @@
 						<div class="row galerie">
 							<div class="col-12">
 								<figure>
-									<img class="img-fluid" src="images/logo.png" alt="Entreprise">
+									<img class="img-fluid" src="images/entreprise4.png" alt="Entreprise">
 									<figcaption>Lisa - Community Manager</figcaption>
 								</figure>
 							</div>
 							<div class="col-6">
 								<figure>
-									<img class="img-fluid" src="images/logo.png" alt="Entreprise">
-									<figcaption>Lisa - Community Manager</figcaption>
+									<img class="img-fluid" src="images/entreprise5.png" alt="Entreprise">
+									<figcaption>Extérieurs</figcaption>
 								</figure>
 							</div>
 							<div class="col-6">
 								<figure>
-									<img class="img-fluid" src="images/logo.png" alt="Entreprise">
-									<figcaption>Lisa - Community Manager</figcaption>
+									<img class="img-fluid" src="images/myriam.png" alt="Entreprise">
+									<figcaption>Myriam - Chargée d'études marketing</figcaption>
 								</figure>
 							</div>
 						</div>
@@ -145,7 +145,7 @@
 			<div class="hide entreprise-offers text-left mt-4 mb-4">
 				<div class="row entreprise-offer mb-4 px-2">
 					<div class="col-12 col-md-6 mb-3 text-center">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/offre1.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6">
 						<h2>CDI - Chef de projet Web</h2>
@@ -155,7 +155,7 @@
 				</div>
 				<div class="row entreprise-offer mb-4 px-2 text-center">
 					<div class="col-12 col-md-6 mb-3">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/offre2.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6">
 						<h2>CDD - Cuisinier</h2>
@@ -165,7 +165,7 @@
 				</div>
 				<div class="row entreprise-offer mb-4 px-2 text-center">
 					<div class="col-12 col-md-6 mb-3">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/offre3.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6">
 						<h2>Alternance - Illustrateur</h2>
@@ -175,7 +175,7 @@
 				</div>
 				<div class="row entreprise-offer mb-4 px-2 text-center">
 					<div class="col-12 col-md-6 mb-3">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/offre4.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6">
 						<h2>CDD - Communication</h2>
@@ -195,7 +195,7 @@
 				<h2 class="mb-4 events-to-come-title">Évènements à venir (1) <i class="fas fa-angle-up"></i><i class="d-none fas fa-angle-down"></i></h2>
 				<div class="row entreprise-event-to-come mb-4 px-2">
 					<div class="col-12 col-md-6 mb-3 text-center">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/event1.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6">
 						<h2>DuoDay</h2>
@@ -209,7 +209,7 @@
 				<h2 class="mb-4 events-passed-title">Évènements à passés (5) <i class="fas fa-angle-up"></i><i class="d-none fas fa-angle-down"></i></h2>
 				<div class="row entreprise-event-passed mb-4 px-2">
 					<div class="col-12 col-md-6 mb-3 text-center">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/event2.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6 mb-4">
 						<h2>Sensibilisation malvoyance/Chiens guides d’aveugles</h2>
@@ -222,10 +222,10 @@
 				</div>
 				<div class="row entreprise-event-passed mb-4 px-2">
 					<div class="col-12 col-md-6 mb-3 text-center">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/event3.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6 mb-4">
-						<h2>CDI - Chef de projet Web</h2>
+						<h2>Collecte et animation Cravate solidaire</h2>
 						<ul>
 							<li><i class="far fa-calendar"></i>06/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
@@ -235,10 +235,10 @@
 				</div>
 				<div class="row entreprise-event-passed mb-4 px-2">
 					<div class="col-12 col-md-6 mb-3 text-center">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/event4.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6 mb-4">
-						<h2>CDI - Chef de projet Web</h2>
+						<h2>Evénement Handisport</h2>
 						<ul>
 							<li><i class="far fa-calendar"></i>05/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
@@ -248,10 +248,10 @@
 				</div>
 				<div class="row entreprise-event-passed mb-4 px-2">
 					<div class="col-12 col-md-6 mb-3 text-center">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/event5.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6 mb-4">
-						<h2>CDI - Chef de projet Web</h2>
+						<h2>Concert les Funambules</h2>
 						<ul>
 							<li><i class="far fa-calendar"></i>05/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
@@ -259,9 +259,9 @@
 						<a href="event">En savoir plus…</a>
 					</div>
 				</div>
-				<div class="row entreprise-event-passed mb-4 px-2">
+				<!--<div class="row entreprise-event-passed mb-4 px-2">
 					<div class="col-12 col-md-6 mb-3 text-center">
-						<img src="images/logo.png" class="img-fluid" alt="Entreprise">
+						<img src="images/event6.png" class="img-fluid" alt="Entreprise">
 					</div>
 					<div class="col-12 col-md-6 mb-4">
 						<h2>CDI - Chef de projet Web</h2>
@@ -271,7 +271,7 @@
 						</ul>
 						<a href="event">En savoir plus…</a>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</main>

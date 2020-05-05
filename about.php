@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="row position-relative background-image mb-5">
 				<div class="overlay"></div>
-				<div class="col-12">
+				<div class="col-12 gradient pt-5">
 					<h1>À propos de Tangata</h1>
 				</div>
 			</div>
@@ -37,7 +37,7 @@
 				<div class="col-md-12">
 					<i class="fas fa-users blue-circle-border mb-2"></i>
 					<h2 class="font-weight-bold mb-4">Une équipe dynamique et engagée</h2>
-					<img src="images/logo.png" class="img-fluid" alt="Tangata">
+					<img src="images/photo-equipe.png" class="img-fluid" alt="Tangata">
 				</div>
 			</div>
 		</div>

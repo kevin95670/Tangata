@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="row position-relative background-image mb-5">
 				<div class="overlay"></div>
-				<div class="col-12">
+				<div class="col-12 gradient pt-5">
 					<h1>Une offre complète avec des partenaires experts pour vous épauler.</h1>
 				</div>
 			</div>
@@ -52,15 +52,15 @@
 			</div>
 			<div class="row partenaires">
 				<div class="partenaire col-md-4 col-sm-6 col-xs-12 mb-5">
-					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Partenaire">
+					<img src="images/partenaire1.png" class="mx-auto img-fluid d-block mb-5" alt="Partenaire">
 					<p class="mb-4">Créateur d'opportunités, d'emplois et de formations</p>
 				</div>
 				<div class="partenaire col-md-4 col-sm-6 col-xs-12 mb-5">
-					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Partenaire">
+					<img src="images/partenaire2.png" class="mx-auto img-fluid d-block mb-5" alt="Partenaire">
 					<p class="mb-4">Faire gagner les entreprises en qualité humaines</p>
 				</div>
 				<div class="partenaire col-md-4 col-sm-6 col-xs-12 mb-5">
-					<img src="images/logo.png" class="mx-auto img-fluid d-block mb-5" alt="Partenaire">
+					<img src="images/partenaire3.png" class="mx-auto img-fluid d-block mb-5" alt="Partenaire">
 					<p class="mb-4">Réseau de fabrique numérique et inclusives</p>
 				</div>
 			</div>

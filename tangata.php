@@ -9,17 +9,17 @@
 		<div class="container">
 			<div class="row position-relative background-image mb-5">
 				<div class="overlay"></div>
-				<div class="col-12">
+				<div class="col-12 gradient pt-5">
 					<h1>Donnez une nouvelle dimension à l'inclusion !</h1>
 				</div>
 			</div>
 			<div class="row description mb-5">
 				<div class="col-md-4 col-sm-6 col-xs-12">
-					<i class="fas fa-handshake blue-circle-border"></i>
+					<i class="fas fa-compress-arrows-alt blue-circle-border"></i>
 					<p>Votre marque employeur favorisé par l'inclusion</p>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
-					<i class="fas fa-handshake blue-circle-border"></i>
+					<i class="fas fa-users blue-circle-border"></i>
 					<p>Un réseau d'experts handicap pour booster votre attractivité</p>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">

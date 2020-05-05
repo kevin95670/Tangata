@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="row position-relative background-image mb-5">
 				<div class="overlay"></div>
-				<div class="col-12">
+				<div class="col-12 gradient pt-5">
 					<h1>Besoin de prendre contact avec l'équipe Tangata Job ?</h1>
 				</div>
 			</div>
