@@ -1,3 +1,4 @@
+
 <?php require_once('inc/head.html'); ?>
 
 <body id="offer">

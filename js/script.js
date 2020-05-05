@@ -1,3 +1,4 @@
+
 $(document).ready(function()
 {
 	$('.entreprise-section div').on('click', function(){
