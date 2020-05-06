@@ -203,7 +203,7 @@
 							<li><i class="far fa-calendar"></i>Le 14 avril 2020</li>
 							<li><i class="fas fa-map-pin"></i>BivwAK! - 3 rue Rossini, 75009 Paris </li>
 						</ul>
-						<a href="event">En savoir plus…</a>
+						<a href="#">En savoir plus…</a>
 					</div>
 				</div>
 				<h2 class="mb-4 events-passed-title">Évènements à passés (5) <i class="fas fa-angle-up"></i><i class="d-none fas fa-angle-down"></i></h2>
@@ -217,7 +217,7 @@
 							<li><i class="far fa-calendar"></i>10/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
 						</ul>
-						<a href="event">En savoir plus…</a>
+						<a href="#">En savoir plus…</a>
 					</div>
 				</div>
 				<div class="row entreprise-event-passed mb-4 px-2">
@@ -230,7 +230,7 @@
 							<li><i class="far fa-calendar"></i>06/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
 						</ul>
-						<a href="event">En savoir plus…</a>
+						<a href="#">En savoir plus…</a>
 					</div>
 				</div>
 				<div class="row entreprise-event-passed mb-4 px-2">
@@ -243,7 +243,7 @@
 							<li><i class="far fa-calendar"></i>05/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
 						</ul>
-						<a href="event">En savoir plus…</a>
+						<a href="#">En savoir plus…</a>
 					</div>
 				</div>
 				<div class="row entreprise-event-passed mb-4 px-2">
@@ -256,7 +256,7 @@
 							<li><i class="far fa-calendar"></i>05/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
 						</ul>
-						<a href="event">En savoir plus…</a>
+						<a href="#">En savoir plus…</a>
 					</div>
 				</div>
 				<!--<div class="row entreprise-event-passed mb-4 px-2">
@@ -269,7 +269,7 @@
 							<li><i class="far fa-calendar"></i>05/2019</li>
 							<li><i class="fas fa-map-pin"></i>BNP Paribas Cardif, 92000 Nanterre</li>
 						</ul>
-						<a href="event">En savoir plus…</a>
+						<a href="#">En savoir plus…</a>
 					</div>
 				</div>-->
 			</div>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
+<!-- Active URL: https://ondras.zarovi.cz/sql/demo/?keyword=default -->
+<sql>
+<datatypes db="mysql">
+                <group label="Numeric" color="rgb(238,238,170)">
+                               <type label="Integer" length="0" sql="INTEGER" re="INT" quote=""/>
+                               <type label="Decimal" length="1" sql="DECIMAL" re="DEC" quote=""/>
+                               <type label="Single precision" length="0" sql="FLOAT" quote=""/>
+                               <type label="Double precision" length="0" sql="DOUBLE" re="DOUBLE" quote=""/>
+                </group>
+
+                <group label="Character" color="rgb(255,200,200)">
+                               <type label="Char" length="1" sql="CHAR" quote="'"/>
+                               <type label="Varchar" length="1" sql="VARCHAR" quote="'"/>
+                               <type label="Text" length="0" sql="MEDIUMTEXT" re="TEXT" quote="'"/>
+                               <type label="Binary" length="1" sql="BINARY" quote="'"/>
+                               <type label="Varbinary" length="1" sql="VARBINARY" quote="'"/>
+                               <type label="BLOB" length="0" sql="BLOB" re="BLOB" quote="'"/>
+                </group>
+
+                <group label="Date &amp; Time" color="rgb(200,255,200)">
+                               <type label="Date" length="0" sql="DATE" quote="'"/>
+                               <type label="Time" length="0" sql="TIME" quote="'"/>
+                               <type label="Datetime" length="0" sql="DATETIME" quote="'"/>
+                               <type label="Year" length="0" sql="YEAR" quote=""/>
+                               <type label="Timestamp" length="0" sql="TIMESTAMP" quote="'"/>
+                </group>
+                
+                <group label="Miscellaneous" color="rgb(200,200,255)">
+                               <type label="ENUM" length="1" sql="ENUM" quote=""/>
+                               <type label="SET" length="1" sql="SET" quote=""/>
+                               <type label="Bit" length="0" sql="bit" quote=""/>
+                </group>
+</datatypes><table x="1297" y="366" name="Entreprise">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="logo" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="titre" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="description" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="ville" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="creation" null="1" autoincrement="0">
+<datatype>DATE</datatype>
+<default>NULL</default></row>
+<row name="collaborateur" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="ageMoyen" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="tauxHomme" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="tauxFemme" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="1862" y="502" name="Offre">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="image" null="0" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>'NULL'</default></row>
+<row name="titre" null="0" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>'NULL'</default></row>
+<row name="description" null="0" autoincrement="0">
+<datatype>VARCHAR(1000)</datatype>
+<default>'NULL'</default></row>
+<row name="mobiliteReduite" null="0" autoincrement="0">
+<datatype>BINARY</datatype>
+<default>'0'</default></row>
+<row name="malentendant" null="0" autoincrement="0">
+<datatype>BINARY</datatype>
+<default>'0'</default></row>
+<row name="malvoyant" null="0" autoincrement="0">
+<datatype>BINARY</datatype>
+<default>'0'</default></row>
+<row name="experience" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="etude" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="diplome" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="1862" y="201" name="Evenement">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="image" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="titre" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="date" null="1" autoincrement="0">
+<datatype>DATE</datatype>
+<default>NULL</default></row>
+<row name="adresse" null="1" autoincrement="0">
+<datatype>VARCHAR(500)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="715" y="389" name="Specialisation">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="nom" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="1007" y="160" name="Partenaire">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="nom" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="logo" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="description" null="1" autoincrement="0">
+<datatype>VARCHAR(1000)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="1563" y="201" name="Entreprise_evenement">
+<row name="id_entreprise" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Entreprise" row="id" />
+</row>
+<row name="id_evenement" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Evenement" row="id" />
+</row>
+<key type="PRIMARY" name="">
+</key>
+</table>
+<table x="1560" y="502" name="Entreprise_offre">
+<row name="id_entreprise" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Entreprise" row="id" />
+</row>
+<row name="id_offre" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Offre" row="id" />
+</row>
+<key type="PRIMARY" name="">
+</key>
+</table>
+<table x="1253" y="160" name="Partenaire_entreprise">
+<row name="id_partenaire" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Partenaire" row="id" />
+</row>
+<row name="id_entreprise" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Entreprise" row="id" />
+</row>
+<key type="PRIMARY" name="">
+</key>
+</table>
+<table x="972" y="365" name="Specialisation_entreprise">
+<row name="id_partenaire" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Partenaire" row="id" />
+</row>
+<row name="id_specialisation" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Specialisation" row="id" />
+</row>
+<key type="PRIMARY" name="">
+</key>
+</table>
+<table x="2270" y="550" name="Competence">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="nom" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="2050" y="417" name="offre_competence">
+<row name="id_offre" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Offre" row="id" />
+</row>
+<row name="id_competence" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Competence" row="id" />
+</row>
+<key type="PRIMARY" name="">
+</key>
+</table>
+<table x="1103" y="601" name="Contact">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="id_entreprise" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Entreprise" row="id" />
+</row>
+<row name="nom" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="poste" null="1" autoincrement="0">
+<datatype>VARCHAR</datatype>
+<default>NULL</default></row>
+<row name="mail" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+</sql>
