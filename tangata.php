@@ -3,7 +3,9 @@
 
 <body id="tangata">
 
-	<?php require_once('inc/header.html'); ?>
+	<?php require_once('inc/header.html'); 
+		require_once('inc/bd-connect.php');
+	?>
 
 	<main>
 		<div class="container">
