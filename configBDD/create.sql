@@ -128,13 +128,13 @@ CREATE TABLE Partenaire_entreprise (
 );
 
 -- ---
--- Table 'Specialisation_entreprise'
+-- Table 'Specialisation_partenaire'
 -- 
 -- ---
 
-DROP TABLE IF EXISTS Specialisation_entreprise;
+DROP TABLE IF EXISTS Specialisation_partenaire;
     
-CREATE TABLE Specialisation_entreprise (
+CREATE TABLE Specialisation_partenaire (
   id_partenaire INTEGER NOT NULL,
   id_specialisation INTEGER NOT NULL
 );
@@ -190,8 +190,8 @@ ALTER TABLE Entreprise_offre ADD FOREIGN KEY (id_entreprise) REFERENCES Entrepri
 ALTER TABLE Entreprise_offre ADD FOREIGN KEY (id_offre) REFERENCES Offre (id);
 ALTER TABLE Partenaire_entreprise ADD FOREIGN KEY (id_partenaire) REFERENCES Partenaire (id);
 ALTER TABLE Partenaire_entreprise ADD FOREIGN KEY (id_entreprise) REFERENCES Entreprise (id);
-ALTER TABLE Specialisation_entreprise ADD FOREIGN KEY (id_partenaire) REFERENCES Partenaire (id);
-ALTER TABLE Specialisation_entreprise ADD FOREIGN KEY (id_specialisation) REFERENCES Specialisation (id);
+ALTER TABLE Specialisation_partenaire ADD FOREIGN KEY (id_partenaire) REFERENCES Partenaire (id);
+ALTER TABLE Specialisation_partenaire ADD FOREIGN KEY (id_specialisation) REFERENCES Specialisation (id);
 ALTER TABLE offre_competence ADD FOREIGN KEY (id_offre) REFERENCES Offre (id);
 ALTER TABLE offre_competence ADD FOREIGN KEY (id_competence) REFERENCES Competence (id);
 ALTER TABLE Contact ADD FOREIGN KEY (id_entreprise) REFERENCES Entreprise (id);

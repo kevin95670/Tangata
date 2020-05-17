@@ -186,7 +186,7 @@
 <key type="PRIMARY" name="">
 </key>
 </table>
-<table x="972" y="365" name="Specialisation_entreprise">
+<table x="972" y="365" name="Specialisation_partenaire">
 <row name="id_partenaire" null="0" autoincrement="0">
 <datatype>INTEGER</datatype>
 <relation table="Partenaire" row="id" />
