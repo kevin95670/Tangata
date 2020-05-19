@@ -89,15 +89,6 @@
 <row name="malvoyant" null="0" autoincrement="0">
 <datatype>BINARY</datatype>
 <default>'0'</default></row>
-<row name="experience" null="1" autoincrement="0">
-<datatype>VARCHAR(255)</datatype>
-<default>NULL</default></row>
-<row name="etude" null="1" autoincrement="0">
-<datatype>VARCHAR(255)</datatype>
-<default>NULL</default></row>
-<row name="diplome" null="1" autoincrement="0">
-<datatype>VARCHAR(255)</datatype>
-<default>NULL</default></row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
@@ -198,7 +189,7 @@
 <key type="PRIMARY" name="">
 </key>
 </table>
-<table x="2270" y="550" name="Competence">
+<table x="2125" y="323" name="Competence">
 <row name="id" null="0" autoincrement="1">
 <datatype>INTEGER</datatype>
 </row>
@@ -209,7 +200,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="2050" y="417" name="offre_competence">
+<table x="2040" y="450" name="offre_competence">
 <row name="id_offre" null="0" autoincrement="0">
 <datatype>INTEGER</datatype>
 <relation table="Offre" row="id" />
@@ -236,6 +227,63 @@
 <datatype>VARCHAR(255)</datatype>
 <default>NULL</default></row>
 <row name="mail" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="2039" y="610" name="offre_diplome">
+<row name="id_offre" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Offre" row="id" />
+</row>
+<row name="id_diplome" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Diplome" row="id" />
+</row>
+</table>
+<table x="2263" y="624" name="Diplome">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="nom" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="2022" y="790" name="Etude">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="id_offre" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Offre" row="id" />
+</row>
+<row name="nom" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="1618" y="694" name="offre_experience">
+<row name="id_offre" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Offre" row="id" />
+</row>
+<row name="id_experience" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Experience" row="id" />
+</row>
+</table>
+<table x="1411" y="786" name="Experience">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="description" null="1" autoincrement="0">
 <datatype>VARCHAR(255)</datatype>
 <default>NULL</default></row>
 <key type="PRIMARY" name="">

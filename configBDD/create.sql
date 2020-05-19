@@ -41,9 +41,6 @@ CREATE TABLE Offre (
   mobiliteReduite BINARY NOT NULL DEFAULT '0',
   malentendant BINARY NOT NULL DEFAULT '0',
   malvoyant BINARY NOT NULL DEFAULT '0',
-  experience VARCHAR(255) NULL DEFAULT NULL,
-  etude VARCHAR(255) NULL DEFAULT NULL,
-  diplome VARCHAR(255) NULL DEFAULT NULL,
   PRIMARY KEY (id)
 );
 
@@ -181,6 +178,70 @@ CREATE TABLE Contact (
 );
 
 -- ---
+-- Table 'offre_diplome'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS offre_diplome;
+    
+CREATE TABLE offre_diplome (
+  id_offre INTEGER NOT NULL,
+  id_diplome INTEGER NOT NULL
+);
+
+-- ---
+-- Table 'Diplome'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS Diplome;
+    
+CREATE TABLE Diplome (
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  nom VARCHAR(255) NULL DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+
+-- ---
+-- Table 'Etude'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS Etude;
+    
+CREATE TABLE Etude (
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  id_offre INTEGER NOT NULL,
+  nom VARCHAR(255) NULL DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+
+-- ---
+-- Table 'offre_experience'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS offre_experience;
+    
+CREATE TABLE offre_experience (
+  id_offre INTEGER NOT NULL,
+  id_experience INTEGER NOT NULL
+);
+
+-- ---
+-- Table 'Experience'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS Experience;
+    
+CREATE TABLE Experience (
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  description VARCHAR(255) NULL DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+
+-- ---
 -- Foreign Keys 
 -- ---
 
@@ -195,3 +256,8 @@ ALTER TABLE Specialisation_partenaire ADD FOREIGN KEY (id_specialisation) REFERE
 ALTER TABLE offre_competence ADD FOREIGN KEY (id_offre) REFERENCES Offre (id);
 ALTER TABLE offre_competence ADD FOREIGN KEY (id_competence) REFERENCES Competence (id);
 ALTER TABLE Contact ADD FOREIGN KEY (id_entreprise) REFERENCES Entreprise (id);
+ALTER TABLE offre_diplome ADD FOREIGN KEY (id_offre) REFERENCES Offre (id);
+ALTER TABLE offre_diplome ADD FOREIGN KEY (id_diplome) REFERENCES Diplome (id);
+ALTER TABLE Etude ADD FOREIGN KEY (id_offre) REFERENCES Offre (id);
+ALTER TABLE offre_experience ADD FOREIGN KEY (id_offre) REFERENCES Offre (id);
+ALTER TABLE offre_experience ADD FOREIGN KEY (id_experience) REFERENCES Experience (id);
