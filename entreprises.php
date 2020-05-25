@@ -6,7 +6,7 @@
 	<?php require_once('inc/header.html'); ?>
 
 	<main>
-		<div class="container">
+		<div class="container lazy">
 			<div class="row position-relative background-image mb-5">
 				<div class="overlay"></div>
 				<div class="col-12 gradient pt-5">
@@ -15,25 +15,25 @@
 			</div>
 			<div class="row entreprises">
 				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
-					<img src="images/bnp-paribas.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<img data-src="images/bnp-paribas.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>BNP Paris Cardif</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
 					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
 				</div>
 				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
-					<img src="images/danone.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<img data-src="images/danone.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>Danone</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
 					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
 				</div>
 				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
-					<img src="images/engie.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<img data-src="images/engie.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>Engie</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
 					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
 				</div>
 				<div class="entreprise col-md-4 col-sm-6 col-xs-12 mb-5">
-					<img src="images/arval.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
+					<img data-src="images/arval.png" class="mx-auto img-fluid d-block mb-5" alt="Entreprise">
 					<h2>Arval - BNP Paris Group</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et. </p>
 					<a class="font-italic" href="entreprise">Voir la fiche entreprise</a>
