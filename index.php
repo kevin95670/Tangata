@@ -3,7 +3,7 @@
 
 <body id="index">
 	<main class="no-padding lazy">
-		<div class="overlay lazy"></div>
+		<div class="overlay"></div>
 		<div class="background-image"></div>
 		<img class="logo img-fluid" data-src="images/logo.png" alt="Tangata" />
 		<h1>Donnez une nouvelle dimension à l'inclusion !</h1>
