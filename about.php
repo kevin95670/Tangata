@@ -29,8 +29,8 @@
 			</div>
 			<div class="row about mb-5">
 				<div class="col-md-12">
-					<p class="mb-4">Un site de <span class="font-weight-bold">mise en relation</span>entre les personnes touchées par le handicap, les aidants et les acteurs du handicap <span class="font-weight-bold">répondant à leurs besoins.</span></p>
-					<p class="mb-4"><span class="font-weight-bold">Un relais d'accélération</span>qui permet aux acteurs du handicap (associations, entreprises et start-ups) de <span class="font-weight-bold">gagner en visibilité et croître plus rapidement</span>, avec en option une proposition d'accompagnement par le réseau France Act for Impact de BNP Paribas.</p>
+					<p class="mb-4">Un site de <span class="font-weight-bold">mise en relation </span>entre les personnes touchées par le handicap, les aidants et les acteurs du handicap <span class="font-weight-bold">répondant à leurs besoins.</span></p>
+					<p class="mb-4"><span class="font-weight-bold">Un relais d'accélération </span>qui permet aux acteurs du handicap (associations, entreprises et start-ups) de <span class="font-weight-bold">gagner en visibilité et croître plus rapidement</span>, avec en option une proposition d'accompagnement par le réseau France Act for Impact de BNP Paribas.</p>
 				</div>
 			</div>
 			<div class="row about-team about mb-5">

@@ -102,7 +102,8 @@ i.blue-circle-border{
 
 	&:hover{
 		font-size: 1.1rem;
-		transition: font-size .5s;
+		width: 275px;
+		transition: width .5s, font-size .5s;
 	}
 }
 
@@ -119,6 +120,10 @@ i.blue-circle-border{
 	color: $white;
 	border: 2px solid $colorBlue;
 	background: $colorBlue;
+
+	&:hover{
+		color: $white;
+	}
 }
 
 .btn-white{

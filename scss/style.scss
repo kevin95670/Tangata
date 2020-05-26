@@ -101,6 +101,10 @@
 	.add-entreprise{
 		border: 1px dashed $colorDashedBorder;
 
+		& a:hover{
+			text-decoration: none;
+		}
+
 		.new-entreprise{
 			background-color: $colorBGNewEntreprise;
 
@@ -493,6 +497,12 @@
 		.more-job{
 			color: $colorBlue;
 			font-size: 1rem;
+
+			&:hover{
+				font-size: 1.1rem;
+				width: 275px;
+				transition: width .5s, font-size .5s;
+			}
 		}
 	}
 
@@ -599,7 +609,7 @@
 		}
 
 		.see-more{
-			width: 150px;
+			width: 175px;
 		}
 	}
 
