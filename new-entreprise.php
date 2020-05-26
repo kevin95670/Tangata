@@ -14,7 +14,7 @@
 							<div class="logo-entreprise position-relative">
 								<div class="form-group position-absolute logo">
 							    	<label for="logo" class="text-underline">Télécharger votre logo</label>
-							    	<input type="file" class=" d-none form-control-file" id="logo">
+							    	<input type="file" name="logo" class=" d-none form-control-file" id="logo">
 							  	</div>
 							</div>
 						</div>
@@ -23,11 +23,11 @@
 				<div class="row mb-3 py-4">
 					<div class="col-12">
 						<div class="company-name">
-							<input type="text" id="company-name" placeholder="Nom de l'entreprise" />
+							<input type="text" id="company-name" name="company-name" placeholder="Nom de l'entreprise" />
 							<i class="fas fa-pen"></i>
 						</div>
 						<div class="company-place">
-							<input type="text" id="company-place" placeholder="Ville (00)" />
+							<input type="text" id="company-place" name="company-place" placeholder="Ville (00)" />
 							<i class="fas fa-pen"></i>
 						</div>
 					</div>
@@ -42,7 +42,7 @@
 						<div class="col-12">
 							<h2>À propos</h2>
 							<div class="company-about d-flex">
-								<textarea id="about" rows="10" placeholder="Entrez la description de votre entreprise…"></textarea>
+								<textarea id="about" name="about" rows="10" placeholder="Entrez la description de votre entreprise…"></textarea>
 								<i class="fas fa-pen"></i>
 							</div>
 						</div>
@@ -51,30 +51,30 @@
 						<div class="overlay"></div>
 						<div class="col-6 col-md-3 mb-3 company-date">
 							<div>
-								<input type="number" id="company-date-number" placeholder="2020" />
+								<input type="number" name="company-date-number" id="company-date-number" placeholder="2020" />
 								<i class="fas fa-pen"></i>
 							</div>
 							<p>Date de création</p>
 						</div>
 						<div class="col-6 col-md-3 mb-3">
 							<div>
-								<input type="number" id="company-collaborator" placeholder="1000" />
+								<input type="number" name="company-collaborator" id="company-collaborator" placeholder="1000" />
 								<i class="fas fa-pen"></i>
 							</div>
 							<p>Collaborateurs</p>
 						</div>
 						<div class="col-6 col-md-3 mb-3">
 							<div>
-								<input type="number" id="company-medium-age" placeholder="40" />
+								<input type="number" id="company-medium-age" name="company-medium-age" placeholder="40" />
 								<i class="fas fa-pen"></i>
 							</div>
 							<p>Âge moyen</p>
 						</div>
 						<div class="col-6 col-md-3 mb-3">
 							<div class="company-parity">
-								<input type="number" id="company-parity-men" placeholder="54" />
+								<input type="number" id="company-parity-men" name="company-parity-men" placeholder="54" />
 								/
-								<input type="number" id="company-parity-women" placeholder="46" />
+								<input type="number" id="company-parity-women" name="company-parity-women" placeholder="46" />
 								<i class="fas fa-pen"></i>
 							</div>
 							<p>Parité Hommes - Femmes</p>
@@ -84,15 +84,15 @@
 						<div class="col-12">
 							<p class="mb-3"><strong>Un contact unique et privilégié</strong></p>
 							<div class="company-contact-name">
-								<input type="text" id="company-contact-name" placeholder="Nom du contact interne" />
+								<input type="text" id="company-contact-name" name="company-contact-name" placeholder="Nom du contact interne" />
 								<i class="fas fa-pen"></i>
 							</div>
 							<div class="company-contact-poste">
-								<input type="text" id="company-contact-poste" placeholder="Son poste" />
+								<input type="text" id="company-contact-poste" name="company-contact-poste" placeholder="Son poste" />
 								<i class="fas fa-pen"></i>
 							</div>
 							<div class="company-contact-mail">
-								<input type="email" id="company-contact-mail" placeholder="adresse@email.com" />
+								<input type="email" id="company-contact-mail" name="company-contact-mail" placeholder="adresse@email.com" />
 								<i class="fas fa-pen"></i>
 							</div>
 						</div>

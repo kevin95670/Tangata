@@ -49,7 +49,7 @@
 <datatype>VARCHAR(255)</datatype>
 <default>NULL</default></row>
 <row name="creation" null="1" autoincrement="0">
-<datatype>DATE</datatype>
+<datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="collaborateur" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>

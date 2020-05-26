@@ -21,6 +21,16 @@ function getEntreprise($bd){
 	return $res;
 }
 
+function getLastEntrepriseId($bd){
+	
+	$entreprise = 'select id from entreprise order by id desc LIMIT 1';
+	$req=$bd->prepare($entreprise);
+	$req->execute();
+
+	$res=$req->fetch(PDO::FETCH_ASSOC);
+	return $res['id'];
+}
+
 function getEntrepriseOffers($bd){
 	
 	$offers = 'select o.id, o.image, o.titre, o.description from offre o join entreprise_offre eo on o.id = eo.id_offre where eo.id_entreprise =:entreprise';
